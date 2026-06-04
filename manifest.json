@@ -1,15 +1,16 @@
 {
   "project": "高校受験社会クイズアプリ",
-  "version": "Ver5 geography public package",
+  "package": "public package geography history",
   "generated_date": "2026-06-04",
+  "display_note": "トップ説明文は選択中の科目名のみ表示。初期表示は「地理」。Ver表記なし。",
   "files": {
     ".nojekyll": {
       "size_bytes": 0,
       "sha256_16": "e3b0c44298fc1c14"
     },
     "README_GITHUB_PAGES.md": {
-      "size_bytes": 2299,
-      "sha256_16": "d8a4517f0ffae0d3"
+      "size_bytes": 1479,
+      "sha256_16": "abec52e7c378356d"
     },
     "docs/geography_all_001_700.md": {
       "size_bytes": 341791,
@@ -19,42 +20,82 @@
       "size_bytes": 7547,
       "sha256_16": "ac3a462adcac251a"
     },
-    "docs/index_ver4_geography_backup.html": {
-      "size_bytes": 342399,
-      "sha256_16": "896e71570054866e"
+    "docs/history_all_001_500.md": {
+      "size_bytes": 216252,
+      "sha256_16": "64dfe282c5d4c31b"
+    },
+    "docs/history_check_report.md": {
+      "size_bytes": 801,
+      "sha256_16": "be7f53e8723c9851"
+    },
+    "docs/history_duplicate_report.md": {
+      "size_bytes": 750,
+      "sha256_16": "200820bdf8f12817"
     },
     "geography.json": {
       "size_bytes": 386392,
       "sha256_16": "814aef3c979f0ba3"
     },
+    "history.json": {
+      "size_bytes": 273575,
+      "sha256_16": "93d387032e9f8908"
+    },
     "index.html": {
-      "size_bytes": 15772,
-      "sha256_16": "1351ed23c6bfa10c"
+      "size_bytes": 17041,
+      "sha256_16": "6c0eec57611c4979"
     }
   },
   "data_check": {
-    "question_count": 700,
-    "id_range": [
-      1,
-      700
-    ],
-    "ids_sequential": true,
-    "categories": {
-      "日本地理": 285,
-      "工業": 141,
-      "世界地理": 274
+    "geography": {
+      "question_count": 700,
+      "id_range": [
+        1,
+        700
+      ],
+      "category_counts": {
+        "世界地理": 274,
+        "工業": 141,
+        "日本地理": 285
+      },
+      "difficulty_counts": {
+        "1": 140,
+        "2": 420,
+        "3": 140
+      },
+      "frequency_counts": {
+        "3": 49,
+        "4": 368,
+        "5": 283
+      }
     },
-    "difficulty": {
-      "1": 140,
-      "2": 420,
-      "3": 140
+    "history": {
+      "question_count": 500,
+      "id_range": [
+        1001,
+        1500
+      ],
+      "number_range": [
+        1,
+        500
+      ],
+      "category_counts": {
+        "中世": 125,
+        "古代": 75,
+        "現代": 27,
+        "近世": 100,
+        "近代": 173
+      },
+      "difficulty_counts": {
+        "1": 100,
+        "2": 300,
+        "3": 100
+      },
+      "frequency_counts": {
+        "3": 9,
+        "4": 212,
+        "5": 279
+      }
     },
-    "frequency": {
-      "5": 283,
-      "4": 368,
-      "3": 49
-    },
-    "duplicate_question_groups_exact": 36,
-    "duplicate_questions_involved": 72
+    "total_questions": 1200
   }
 }

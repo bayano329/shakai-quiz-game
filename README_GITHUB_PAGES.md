@@ -1,59 +1,50 @@
-# 高校受験社会クイズアプリ 公開用Ver5
+# 高校受験社会クイズアプリ 公開用ファイル
 
-このフォルダは GitHub Pages で公開するための最小構成です。
+GitHub Pagesで公開するためのファイル一式です。
 
-## 公開に必要なファイル
+## 現在収録している問題
 
-- `index.html`  
-  公開用トップページです。ブラウザで最初に開かれるファイルです。
-- `geography.json`  
-  地理700問のアプリ用データです。`index.html` と同じ階層に置いてください。
-- `.nojekyll`  
-  GitHub PagesでJekyll処理を無効化するための空ファイルです。
-- `docs/`  
-  管理用資料です。公開に必須ではありませんが、問題確認・重複確認のために残しています。
+- 地理：700問
+- 歴史：500問
+- 合計：1200問
 
-## GitHub Pagesでの配置
-
-リポジトリ直下に以下のように配置してください。
+## リポジトリ直下に置くファイル
 
 ```text
 /
 ├─ index.html
 ├─ geography.json
+├─ history.json
 ├─ .nojekyll
+├─ README_GITHUB_PAGES.md
+├─ manifest.json
 └─ docs/
    ├─ geography_all_001_700.md
    ├─ geography_duplicate_report.md
-   └─ index_ver4_geography_backup.html
+   ├─ history_all_001_500.md
+   ├─ history_check_report.md
+   └─ history_duplicate_report.md
 ```
 
-## GitHub側の設定
+## GitHub Pagesでの設定
 
-1. GitHubでリポジトリを作成する
-2. 上記ファイルをリポジトリ直下にアップロードする
-3. `Settings` → `Pages` を開く
-4. `Build and deployment` の `Source` で `Deploy from a branch` を選ぶ
-5. `Branch` を `main`、フォルダを `/root` にして保存する
-6. 数分後に表示されるURLへアクセスする
+1. 上記ファイルをGitHubリポジトリ直下にアップロードする
+2. `Settings` → `Pages` を開く
+3. `Source` を `Deploy from a branch` にする
+4. `Branch` を `main`、フォルダを `/root` にする
+5. `Save` を押す
+6. 表示されたURLを開く
 
 ## 注意
 
-- `index.html` と `geography.json` は必ず同じ階層に置いてください。
-- `index.html` のファイル名は小文字で固定してください。
-- ローカルで直接 `index.html` を開くと、ブラウザの制限で `geography.json` を読み込めない場合があります。
-  その場合はローカルサーバーを使って確認してください。
+- `index.html`、`geography.json`、`history.json` は必ず同じ階層に置いてください。
+- 画面上にはVer表記を出していません。
+- トップ説明文は選択中の科目名のみを表示します。
+- 学習記録と苦手問題は科目ごとに保存されます。
 
-```bash
-cd 公開用フォルダ
-python -m http.server 8000
-```
+## 今後の公民追加時の想定
 
-その後、ブラウザで `http://localhost:8000/` を開いて確認します。
-
-## 今後の拡張方針
-
-歴史・公民を追加する場合は、以下のようにJSONを増やす設計にできます。
+公民を追加する場合は、以下のように `civics.json` を追加し、`index.html` の `DATASETS` に1行追加します。
 
 ```text
 /
@@ -62,6 +53,3 @@ python -m http.server 8000
 ├─ history.json
 └─ civics.json
 ```
-
-Ver5では問題データをHTMLに直接埋め込まず、外部JSONとして読み込む形にしています。
-そのため、今後1300〜1500問規模になっても管理しやすくなります。

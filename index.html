@@ -53,7 +53,6 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
 .progress-bar{height:100%;background:var(--main);width:0%;transition:width .2s ease}
 .footer-note{font-size:13px;color:var(--muted);margin-top:14px}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
-.small-link{font-size:13px;color:#2563eb}
 .loading{padding:12px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;color:#1e40af}
 .error{padding:12px;background:#fef2f2;border:1px solid #fecaca;border-radius:12px;color:#991b1b}
 @media (max-width:480px){
@@ -71,14 +70,15 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
 <div id="homeScreen" class="screen active">
   <div class="card">
     <h1>高校受験社会クイズ</h1>
-    <p class="meta">地理700問搭載・公開用Ver5。GitHub PagesでURLを開くだけでプレイできます。</p>
+    <p id="subjectLabelText" class="meta">地理</p>
     <div id="loadStatus" class="loading">問題データを読み込み中です。</div>
 
     <div class="row">
       <div>
         <h3>科目</h3>
-        <select id="subject" disabled>
+        <select id="subject" onchange="changeSubject()">
           <option value="geography">地理</option>
+          <option value="history">歴史</option>
         </select>
       </div>
       <div>
@@ -108,7 +108,7 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
       <div class="stat"><span class="meta">苦手問題</span><b id="weakCount">0</b></div>
     </div>
 
-    <p class="footer-note">同じ回の中で同一問題は重複出題されません。問題データは <code>geography.json</code> から読み込みます。</p>
+    <p class="footer-note">同じ回の中で同一問題は重複出題されません。学習記録は科目ごとに保存されます。</p>
   </div>
 </div>
 
@@ -145,18 +145,24 @@ const DATASETS = {
   geography: {
     label: "地理",
     file: "geography.json"
+  },
+  history: {
+    label: "歴史",
+    file: "history.json"
   }
 };
 
+const questionCache = {};
 let subjectId = "geography";
 let questions = [];
 let quiz = [];
 let index = 0;
 let score = 0;
 let currentMode = "normal";
+let loadToken = 0;
 
 function storageKey(key) {
-  return `socialQuizV5:${subjectId}:${key}`;
+  return `socialQuiz:${subjectId}:${key}`;
 }
 
 function stat(key) {
@@ -214,17 +220,30 @@ function difficultyLabel(value) {
 }
 
 function frequencyLabel(value) {
-  return "★★★★★".slice(0, value) + "☆☆☆☆☆".slice(0, 5 - value);
+  const filled = "★".repeat(Math.max(0, Math.min(5, value)));
+  const empty = "☆".repeat(Math.max(0, 5 - value));
+  return filled + empty;
+}
+
+function normalizeQuestion(q) {
+  return {
+    ...q,
+    subject: q.subject || DATASETS[subjectId].label,
+    number: q.number || q.id
+  };
 }
 
 function validateQuestionData(list) {
   if (!Array.isArray(list)) throw new Error("問題データが配列ではありません。");
-  list.forEach((q, i) => {
+  list.forEach((raw, i) => {
+    const q = normalizeQuestion(raw);
     const row = i + 1;
     if (typeof q.id !== "number") throw new Error(`${row}問目のidが不正です。`);
     if (!q.category || !q.question || !q.explanation) throw new Error(`${row}問目に不足項目があります。`);
     if (!Array.isArray(q.choices) || q.choices.length !== 3) throw new Error(`${row}問目の選択肢が3つではありません。`);
     if (![0,1,2].includes(q.answer)) throw new Error(`${row}問目の正解番号が不正です。`);
+    if (![1,2,3].includes(q.difficulty)) throw new Error(`${row}問目の難易度が不正です。`);
+    if (![1,2,3,4,5].includes(q.frequency)) throw new Error(`${row}問目の頻出度が不正です。`);
   });
 }
 
@@ -241,24 +260,53 @@ function populateCategories() {
 }
 
 async function loadQuestions() {
+  const currentToken = ++loadToken;
   const status = document.getElementById("loadStatus");
+  const dataset = DATASETS[subjectId];
+
+  document.getElementById("subjectLabelText").textContent = dataset.label;
+  status.className = "loading";
+  status.textContent = `${dataset.label}の問題データを読み込み中です。`;
+  setEnabled(false);
+
   try {
-    const response = await fetch(DATASETS[subjectId].file, {cache: "no-store"});
-    if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const loaded = await response.json();
-    validateQuestionData(loaded);
+    let loaded = questionCache[subjectId];
+    if (!loaded) {
+      const response = await fetch(dataset.file, {cache: "no-store"});
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      loaded = await response.json();
+      validateQuestionData(loaded);
+      loaded = loaded.map(normalizeQuestion);
+      questionCache[subjectId] = loaded;
+    }
+
+    if (currentToken !== loadToken) return;
+
     questions = loaded;
     populateCategories();
     setEnabled(true);
     status.className = "loading";
-    status.textContent = `問題データを読み込みました：${DATASETS[subjectId].label} ${questions.length}問`;
+    status.textContent = `問題データを読み込みました：${dataset.label} ${questions.length}問`;
     updateStats();
   } catch (error) {
     console.error(error);
+    if (currentToken !== loadToken) return;
     status.className = "error";
-    status.innerHTML = "問題データを読み込めませんでした。<br>GitHub Pages上で開くか、ローカル確認では <code>python -m http.server</code> などのローカルサーバー経由で開いてください。<br><span class='meta'>必要ファイル：index.html と geography.json を同じ階層に置いてください。</span>";
+    status.innerHTML = `問題データを読み込めませんでした。<br>GitHub Pages上で開くか、ローカル確認では <code>python -m http.server</code> などのローカルサーバー経由で開いてください。<br><span class='meta'>必要ファイル：index.html と ${dataset.file} を同じ階層に置いてください。</span>`;
+    questions = [];
+    populateCategories();
     setEnabled(false);
+    updateStats();
   }
+}
+
+function changeSubject() {
+  subjectId = document.getElementById("subject").value;
+  questions = [];
+  quiz = [];
+  index = 0;
+  score = 0;
+  loadQuestions();
 }
 
 function buildQuiz(list, requestedCount) {
@@ -403,7 +451,7 @@ function goHome() {
 }
 
 function resetStatsConfirm() {
-  if (confirm("累計正解・不正解・苦手問題の記録を削除しますか？")) {
+  if (confirm(`${DATASETS[subjectId].label}の累計正解・不正解・苦手問題の記録を削除しますか？`)) {
     localStorage.removeItem(storageKey("correctCount"));
     localStorage.removeItem(storageKey("wrongCount"));
     localStorage.removeItem(storageKey("wrongQuestionIds"));
