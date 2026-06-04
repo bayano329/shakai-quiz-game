@@ -181,6 +181,8 @@ let loadToken = 0;
 let sessionExpPerCorrect = 0;
 let sessionExpGranted = false;
 let sessionRequestedCount = 0;
+let currentChoices = [];
+let currentAnswer = 0;
 
 function getTotalExp(){return Number(localStorage.getItem("socialQuiz:totalExp") || 0);}
 function setTotalExp(value){localStorage.setItem("socialQuiz:totalExp", String(Math.max(0, Number(value) || 0)));}
@@ -430,10 +432,14 @@ function showQuestion() {
   document.getElementById("feedback").innerHTML = "";
   document.getElementById("nextBtn").classList.add("hidden");
 
+  const shuffledChoices = shuffle(q.choices.map((choice, originalIndex) => ({choice, originalIndex})));
+  currentChoices = shuffledChoices.map(item => item.choice);
+  currentAnswer = shuffledChoices.findIndex(item => item.originalIndex === q.answer);
+
   const div = document.getElementById("choices");
   div.innerHTML = "";
 
-  q.choices.forEach((choice, i) => {
+  currentChoices.forEach((choice, i) => {
     const b = document.createElement("button");
     b.className = "choice";
     b.textContent = `${["①","②","③"][i]} ${choice}`;
@@ -447,14 +453,14 @@ function answer(selected) {
   const buttons = document.querySelectorAll(".choice");
   buttons.forEach((b, i) => {
     b.disabled = true;
-    if (i === q.answer) b.classList.add("actual-correct");
+    if (i === currentAnswer) b.classList.add("actual-correct");
   });
 
   const asked = getArray("askedQuestionIds");
   asked.push(q.id);
   setArray("askedQuestionIds", asked);
 
-  const isCorrect = selected === q.answer;
+  const isCorrect = selected === currentAnswer;
 
   if (isCorrect) {
     score++;
@@ -473,7 +479,7 @@ function answer(selected) {
     const wrongIds = getArray("wrongQuestionIds");
     wrongIds.push(q.id);
     setArray("wrongQuestionIds", wrongIds);
-    document.getElementById("feedback").innerHTML = `<p class="wrong">❌ 不正解</p><p><b>正解：</b>${["①","②","③"][q.answer]} ${q.choices[q.answer]}</p><p>${q.explanation}</p>`;
+    document.getElementById("feedback").innerHTML = `<p class="wrong">❌ 不正解</p><p><b>正解：</b>${["①","②","③"][currentAnswer]} ${currentChoices[currentAnswer]}</p><p>${q.explanation}</p>`;
   }
 
   updateStats();
