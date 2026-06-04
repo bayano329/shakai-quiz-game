@@ -51,7 +51,7 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
 .hidden{display:none}
 .progress-wrap{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:10px 0 18px}
 .progress-bar{height:100%;background:var(--main);width:0%;transition:width .2s ease}
-.footer-note{font-size:13px;color:var(--muted);margin-top:14px}
+.level-box{background:#fff7ed;border:1px solid #fed7aa;border-radius:14px;padding:12px;margin:14px 0}.level-box p{margin:4px 0}.level-title{font-weight:800;color:#9a3412}.exp-result{background:#f8fafc;border:1px solid var(--border);border-radius:12px;padding:10px}.footer-note{font-size:13px;color:var(--muted);margin-top:14px}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .loading{padding:12px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;color:#1e40af}
 .error{padding:12px;background:#fef2f2;border:1px solid #fecaca;border-radius:12px;color:#991b1b}
@@ -72,6 +72,11 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
     <h1>高校受験社会クイズ</h1>
     <p id="subjectLabelText" class="meta">地理</p>
     <div id="loadStatus" class="loading">問題データを読み込み中です。</div>
+    <div id="levelBox" class="level-box">
+      <p class="level-title">現在のレベル：<span id="levelName">Lv1 見習い冒険者</span></p>
+      <p class="meta">総獲得経験値：<span id="totalExp">0</span> EXP</p>
+      <p class="meta" id="nextLevelText">次のレベルまで：100 EXP</p>
+    </div>
 
     <div class="row">
       <div>
@@ -130,6 +135,7 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
     <h1>結果</h1>
     <h2 id="scoreText"></h2>
     <p id="resultMessage"></p>
+    <p id="expResult" class="exp-result"></p>
     <div class="stat-grid">
       <div class="stat"><span class="meta">今回の正答率</span><b><span id="sessionRate">0</span>%</b></div>
       <div class="stat"><span class="meta">今回の不正解</span><b id="sessionWrong">0</b></div>
@@ -141,6 +147,18 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
 </div>
 
 <script>
+const EXP_BY_COUNT = {5:1, 25:2, 50:5, 100:10};
+const LEVELS = [
+  {name:"Lv1 見習い冒険者", required:0},{name:"Lv2 初心者冒険者", required:100},
+  {name:"Lv3 ブロンズ冒険者", required:300},{name:"Lv4 シルバー冒険者", required:600},
+  {name:"Lv5 ゴールド冒険者", required:1000},{name:"Lv6 見習いハンター", required:1500},
+  {name:"Lv7 初心者ハンター", required:2500},{name:"Lv8 ブロンズハンター", required:4000},
+  {name:"Lv9 シルバーハンター", required:6000},{name:"Lv10 ゴールドハンター", required:9000},
+  {name:"Lv11 見習い勇者", required:14000},{name:"Lv12 初心者勇者", required:20000},
+  {name:"Lv13 ブロンズ勇者", required:28000},{name:"Lv14 シルバー勇者", required:38000},
+  {name:"Lv15 ゴールド勇者", required:50000},{name:"LvMAX プラチナ勇者", required:65000}
+];
+
 const DATASETS = {
   geography: {
     label: "地理",
@@ -160,6 +178,43 @@ let index = 0;
 let score = 0;
 let currentMode = "normal";
 let loadToken = 0;
+let sessionExpPerCorrect = 0;
+let sessionExpGranted = false;
+let sessionRequestedCount = 0;
+
+function getTotalExp(){return Number(localStorage.getItem("socialQuiz:totalExp") || 0);}
+function setTotalExp(value){localStorage.setItem("socialQuiz:totalExp", String(Math.max(0, Number(value) || 0)));}
+function getLevelInfo(exp){
+  let current = LEVELS[0], next = LEVELS[1] || null;
+  for(let i=0;i<LEVELS.length;i++){
+    if(exp >= LEVELS[i].required){current = LEVELS[i]; next = LEVELS[i+1] || null;} else break;
+  }
+  return {current, next};
+}
+function updateLevelDisplay(){
+  const exp = getTotalExp();
+  const info = getLevelInfo(exp);
+  document.getElementById("levelName").textContent = info.current.name;
+  document.getElementById("totalExp").textContent = exp.toLocaleString("ja-JP");
+  if(info.next){
+    const remaining = info.next.required - exp;
+    document.getElementById("nextLevelText").textContent = `次のレベルまで：${remaining.toLocaleString("ja-JP")} EXP（${info.next.required.toLocaleString("ja-JP")} EXPで ${info.next.name}）`;
+  }else{
+    document.getElementById("nextLevelText").textContent = "最高レベルに到達しています";
+  }
+}
+function grantSessionExp(){
+  const beforeExp = getTotalExp();
+  const beforeLevel = getLevelInfo(beforeExp).current;
+  if(sessionExpGranted){return {gainedExp:0, beforeLevel, afterLevel:beforeLevel};}
+  const gainedExp = score * sessionExpPerCorrect;
+  const afterExp = beforeExp + gainedExp;
+  setTotalExp(afterExp);
+  sessionExpGranted = true;
+  const afterLevel = getLevelInfo(afterExp).current;
+  updateLevelDisplay();
+  return {gainedExp, beforeLevel, afterLevel};
+}
 
 function storageKey(key) {
   return `socialQuiz:${subjectId}:${key}`;
@@ -195,6 +250,7 @@ function updateStats() {
   document.getElementById("wrongCount").textContent = w;
   document.getElementById("rate").textContent = (c+w) ? ((c/(c+w))*100).toFixed(1) : "0";
   document.getElementById("weakCount").textContent = weak;
+  updateLevelDisplay();
 }
 
 function showScreen(id) {
@@ -323,6 +379,9 @@ function startGame() {
   currentMode = "normal";
   const cat = document.getElementById("category").value;
   const count = Number(document.getElementById("questionCount").value);
+  sessionRequestedCount = count;
+  sessionExpPerCorrect = EXP_BY_COUNT[count] || 0;
+  sessionExpGranted = false;
   const list = cat === "all" ? questions : questions.filter(q => q.category === cat);
 
   if (list.length === 0) {
@@ -340,6 +399,10 @@ function startGame() {
 function startWeakMode() {
   if (!questions.length) return;
   currentMode = "weak";
+  const selectedCount = Number(document.getElementById("questionCount").value);
+  sessionRequestedCount = selectedCount;
+  sessionExpPerCorrect = EXP_BY_COUNT[selectedCount] || 0;
+  sessionExpGranted = false;
   const wrongIds = getArray("wrongQuestionIds");
   const list = questions.filter(q => wrongIds.includes(q.id));
 
@@ -348,7 +411,7 @@ function startWeakMode() {
     return;
   }
 
-  const requestedCount = Number(document.getElementById("questionCount").value);
+  const requestedCount = sessionRequestedCount;
   quiz = buildQuiz(list, requestedCount);
   index = 0;
   score = 0;
@@ -431,6 +494,7 @@ document.getElementById("nextBtn").onclick = () => {
 function showResult() {
   const wrong = quiz.length - score;
   const rate = quiz.length ? ((score / quiz.length) * 100).toFixed(1) : "0";
+  const expResult = grantSessionExp();
   document.getElementById("scoreText").textContent = `${score} / ${quiz.length} 問正解`;
   document.getElementById("sessionRate").textContent = rate;
   document.getElementById("sessionWrong").textContent = wrong;
@@ -440,6 +504,10 @@ function showResult() {
   else if (Number(rate) >= 70) message = "良い調子です。間違えた問題を復習しましょう。";
   else message = "苦手克服モードで復習すると効果的です。";
   document.getElementById("resultMessage").textContent = message;
+
+  const levelUpText = expResult.beforeLevel.name !== expResult.afterLevel.name ? ` レベルアップ：${expResult.afterLevel.name}` : "";
+  document.getElementById("expResult").textContent =
+    `獲得経験値：${expResult.gainedExp.toLocaleString("ja-JP")} EXP（1問正解あたり ${sessionExpPerCorrect} EXP）${levelUpText}`;
 
   updateStats();
   showScreen("resultScreen");
