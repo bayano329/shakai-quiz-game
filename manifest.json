@@ -1,0 +1,60 @@
+{
+  "project": "高校受験社会クイズアプリ",
+  "version": "Ver5 geography public package",
+  "generated_date": "2026-06-04",
+  "files": {
+    ".nojekyll": {
+      "size_bytes": 0,
+      "sha256_16": "e3b0c44298fc1c14"
+    },
+    "README_GITHUB_PAGES.md": {
+      "size_bytes": 2299,
+      "sha256_16": "d8a4517f0ffae0d3"
+    },
+    "docs/geography_all_001_700.md": {
+      "size_bytes": 341791,
+      "sha256_16": "0be77586ac3f11f1"
+    },
+    "docs/geography_duplicate_report.md": {
+      "size_bytes": 7547,
+      "sha256_16": "ac3a462adcac251a"
+    },
+    "docs/index_ver4_geography_backup.html": {
+      "size_bytes": 342399,
+      "sha256_16": "896e71570054866e"
+    },
+    "geography.json": {
+      "size_bytes": 386392,
+      "sha256_16": "814aef3c979f0ba3"
+    },
+    "index.html": {
+      "size_bytes": 15772,
+      "sha256_16": "1351ed23c6bfa10c"
+    }
+  },
+  "data_check": {
+    "question_count": 700,
+    "id_range": [
+      1,
+      700
+    ],
+    "ids_sequential": true,
+    "categories": {
+      "日本地理": 285,
+      "工業": 141,
+      "世界地理": 274
+    },
+    "difficulty": {
+      "1": 140,
+      "2": 420,
+      "3": 140
+    },
+    "frequency": {
+      "5": 283,
+      "4": 368,
+      "3": 49
+    },
+    "duplicate_question_groups_exact": 36,
+    "duplicate_questions_involved": 72
+  }
+}

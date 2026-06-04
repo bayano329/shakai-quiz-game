@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>高校受験社会クイズ</title>
+<style>
+:root {
+  --bg:#f3f5f7;
+  --card:#ffffff;
+  --text:#1f2937;
+  --muted:#6b7280;
+  --main:#2563eb;
+  --main-dark:#1d4ed8;
+  --ok:#15803d;
+  --ng:#dc2626;
+  --warn:#b45309;
+  --border:#e5e7eb;
+}
+*{box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;margin:0;background:var(--bg);color:var(--text);line-height:1.65}
+.screen{display:none;min-height:100vh;padding:18px;max-width:880px;margin:auto}
+.active{display:block}
+.card{background:var(--card);border-radius:18px;padding:20px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+h1{font-size:26px;margin:0 0 10px}
+h2{font-size:22px;margin:14px 0}
+h3{font-size:16px;margin:16px 0 6px}
+p{margin:8px 0}
+select,button{width:100%;border-radius:12px;border:1px solid var(--border);padding:14px 12px;font-size:17px;background:#fff;color:var(--text)}
+button{border:none;background:var(--main);color:white;font-weight:700;cursor:pointer;margin-top:10px}
+button:hover{background:var(--main-dark)}
+button:disabled{opacity:.55;cursor:not-allowed}
+button.secondary{background:#eef2ff;color:#1e40af}
+button.secondary:hover{background:#dbeafe}
+button.ghost{background:#f9fafb;color:#374151;border:1px solid var(--border)}
+button.ghost:hover{background:#f3f4f6}
+button.choice{background:#fff;color:var(--text);border:2px solid var(--border);text-align:left;margin:10px 0;font-weight:700}
+button.choice:disabled{opacity:1}
+button.selected-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
+button.selected-wrong{border-color:var(--ng);background:#fef2f2;color:var(--ng)}
+button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
+.stat-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0}
+.stat{background:#f9fafb;border:1px solid var(--border);border-radius:12px;padding:12px;text-align:center}
+.stat b{display:block;font-size:20px}
+.meta{color:var(--muted);font-size:14px}
+.badge{display:inline-block;background:#eff6ff;color:#1d4ed8;border-radius:999px;padding:4px 10px;font-size:13px;margin:4px 4px 0 0}
+.feedback{border-top:1px solid var(--border);margin-top:16px;padding-top:14px}
+.correct{color:var(--ok);font-weight:800;font-size:22px}
+.wrong{color:var(--ng);font-weight:800;font-size:22px}
+.warning{color:var(--warn);font-weight:700}
+.hidden{display:none}
+.progress-wrap{height:10px;background:#e5e7eb;border-radius:999px;overflow:hidden;margin:10px 0 18px}
+.progress-bar{height:100%;background:var(--main);width:0%;transition:width .2s ease}
+.footer-note{font-size:13px;color:var(--muted);margin-top:14px}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.small-link{font-size:13px;color:#2563eb}
+.loading{padding:12px;background:#eff6ff;border:1px solid #bfdbfe;border-radius:12px;color:#1e40af}
+.error{padding:12px;background:#fef2f2;border:1px solid #fecaca;border-radius:12px;color:#991b1b}
+@media (max-width:480px){
+  .screen{padding:12px}
+  .card{padding:16px;border-radius:16px}
+  h1{font-size:23px}
+  h2{font-size:20px}
+  button,select{font-size:16px;padding:13px 11px}
+  .row{grid-template-columns:1fr}
+}
+</style>
+</head>
+<body>
+
+<div id="homeScreen" class="screen active">
+  <div class="card">
+    <h1>高校受験社会クイズ</h1>
+    <p class="meta">地理700問搭載・公開用Ver5。GitHub PagesでURLを開くだけでプレイできます。</p>
+    <div id="loadStatus" class="loading">問題データを読み込み中です。</div>
+
+    <div class="row">
+      <div>
+        <h3>科目</h3>
+        <select id="subject" disabled>
+          <option value="geography">地理</option>
+        </select>
+      </div>
+      <div>
+        <h3>カテゴリー</h3>
+        <select id="category" disabled>
+          <option value="all">全カテゴリ</option>
+        </select>
+      </div>
+    </div>
+
+    <h3>出題数</h3>
+    <select id="questionCount" disabled>
+      <option value="5">5問</option>
+      <option value="25">25問</option>
+      <option value="50">50問</option>
+      <option value="100">100問</option>
+    </select>
+
+    <button id="startBtn" onclick="startGame()" disabled>スタート</button>
+    <button id="weakBtn" class="secondary" onclick="startWeakMode()" disabled>苦手克服モード</button>
+    <button class="ghost" onclick="resetStatsConfirm()">学習記録をリセット</button>
+
+    <div class="stat-grid">
+      <div class="stat"><span class="meta">累計正解</span><b id="correctCount">0</b></div>
+      <div class="stat"><span class="meta">累計不正解</span><b id="wrongCount">0</b></div>
+      <div class="stat"><span class="meta">正答率</span><b><span id="rate">0</span>%</b></div>
+      <div class="stat"><span class="meta">苦手問題</span><b id="weakCount">0</b></div>
+    </div>
+
+    <p class="footer-note">同じ回の中で同一問題は重複出題されません。問題データは <code>geography.json</code> から読み込みます。</p>
+  </div>
+</div>
+
+<div id="quizScreen" class="screen">
+  <div class="card">
+    <p id="progressText" class="meta"></p>
+    <div class="progress-wrap"><div id="progressBar" class="progress-bar"></div></div>
+    <div id="questionMeta"></div>
+    <h2 id="question"></h2>
+    <div id="choices"></div>
+    <div id="feedback" class="feedback hidden"></div>
+    <button id="nextBtn" class="hidden">次へ</button>
+    <button class="ghost" onclick="goHome()">ホームへ戻る</button>
+  </div>
+</div>
+
+<div id="resultScreen" class="screen">
+  <div class="card">
+    <h1>結果</h1>
+    <h2 id="scoreText"></h2>
+    <p id="resultMessage"></p>
+    <div class="stat-grid">
+      <div class="stat"><span class="meta">今回の正答率</span><b><span id="sessionRate">0</span>%</b></div>
+      <div class="stat"><span class="meta">今回の不正解</span><b id="sessionWrong">0</b></div>
+    </div>
+    <button onclick="startGame()">同じ条件でもう一度</button>
+    <button class="secondary" onclick="startWeakMode()">苦手克服モードへ</button>
+    <button class="ghost" onclick="goHome()">ホームへ戻る</button>
+  </div>
+</div>
+
+<script>
+const DATASETS = {
+  geography: {
+    label: "地理",
+    file: "geography.json"
+  }
+};
+
+let subjectId = "geography";
+let questions = [];
+let quiz = [];
+let index = 0;
+let score = 0;
+let currentMode = "normal";
+
+function storageKey(key) {
+  return `socialQuizV5:${subjectId}:${key}`;
+}
+
+function stat(key) {
+  return Number(localStorage.getItem(storageKey(key)) || 0);
+}
+
+function getArray(key) {
+  try {
+    return JSON.parse(localStorage.getItem(storageKey(key)) || "[]");
+  } catch(e) {
+    return [];
+  }
+}
+
+function setArray(key, value) {
+  localStorage.setItem(storageKey(key), JSON.stringify([...new Set(value)]));
+}
+
+function setEnabled(enabled) {
+  ["category", "questionCount", "startBtn", "weakBtn"].forEach(id => {
+    document.getElementById(id).disabled = !enabled;
+  });
+}
+
+function updateStats() {
+  const c = stat("correctCount");
+  const w = stat("wrongCount");
+  const weak = getArray("wrongQuestionIds").length;
+  document.getElementById("correctCount").textContent = c;
+  document.getElementById("wrongCount").textContent = w;
+  document.getElementById("rate").textContent = (c+w) ? ((c/(c+w))*100).toFixed(1) : "0";
+  document.getElementById("weakCount").textContent = weak;
+}
+
+function showScreen(id) {
+  document.querySelectorAll(".screen").forEach(s => s.classList.remove("active"));
+  document.getElementById(id).classList.add("active");
+  window.scrollTo({top:0, behavior:"smooth"});
+}
+
+function shuffle(array) {
+  const a = [...array];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function difficultyLabel(value) {
+  if (value === 1) return "★ 基礎";
+  if (value === 2) return "★★ 標準";
+  if (value === 3) return "★★★ 発展";
+  return `難易度 ${value}`;
+}
+
+function frequencyLabel(value) {
+  return "★★★★★".slice(0, value) + "☆☆☆☆☆".slice(0, 5 - value);
+}
+
+function validateQuestionData(list) {
+  if (!Array.isArray(list)) throw new Error("問題データが配列ではありません。");
+  list.forEach((q, i) => {
+    const row = i + 1;
+    if (typeof q.id !== "number") throw new Error(`${row}問目のidが不正です。`);
+    if (!q.category || !q.question || !q.explanation) throw new Error(`${row}問目に不足項目があります。`);
+    if (!Array.isArray(q.choices) || q.choices.length !== 3) throw new Error(`${row}問目の選択肢が3つではありません。`);
+    if (![0,1,2].includes(q.answer)) throw new Error(`${row}問目の正解番号が不正です。`);
+  });
+}
+
+function populateCategories() {
+  const select = document.getElementById("category");
+  const categories = [...new Set(questions.map(q => q.category))].sort((a,b) => a.localeCompare(b, "ja"));
+  select.innerHTML = '<option value="all">全カテゴリ</option>';
+  categories.forEach(category => {
+    const option = document.createElement("option");
+    option.value = category;
+    option.textContent = `${category}（${questions.filter(q => q.category === category).length}問）`;
+    select.appendChild(option);
+  });
+}
+
+async function loadQuestions() {
+  const status = document.getElementById("loadStatus");
+  try {
+    const response = await fetch(DATASETS[subjectId].file, {cache: "no-store"});
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const loaded = await response.json();
+    validateQuestionData(loaded);
+    questions = loaded;
+    populateCategories();
+    setEnabled(true);
+    status.className = "loading";
+    status.textContent = `問題データを読み込みました：${DATASETS[subjectId].label} ${questions.length}問`;
+    updateStats();
+  } catch (error) {
+    console.error(error);
+    status.className = "error";
+    status.innerHTML = "問題データを読み込めませんでした。<br>GitHub Pages上で開くか、ローカル確認では <code>python -m http.server</code> などのローカルサーバー経由で開いてください。<br><span class='meta'>必要ファイル：index.html と geography.json を同じ階層に置いてください。</span>";
+    setEnabled(false);
+  }
+}
+
+function buildQuiz(list, requestedCount) {
+  const unique = shuffle(list);
+  const count = Math.min(requestedCount, unique.length);
+  if (count < requestedCount) {
+    alert(`選択した条件では問題が${unique.length}問しかないため、${count}問で開始します。`);
+  }
+  return unique.slice(0, count);
+}
+
+function startGame() {
+  if (!questions.length) return;
+  currentMode = "normal";
+  const cat = document.getElementById("category").value;
+  const count = Number(document.getElementById("questionCount").value);
+  const list = cat === "all" ? questions : questions.filter(q => q.category === cat);
+
+  if (list.length === 0) {
+    alert("このカテゴリーには問題がありません。");
+    return;
+  }
+
+  quiz = buildQuiz(list, count);
+  index = 0;
+  score = 0;
+  showScreen("quizScreen");
+  showQuestion();
+}
+
+function startWeakMode() {
+  if (!questions.length) return;
+  currentMode = "weak";
+  const wrongIds = getArray("wrongQuestionIds");
+  const list = questions.filter(q => wrongIds.includes(q.id));
+
+  if (list.length === 0) {
+    alert("苦手問題はありません。まず通常モードで問題に挑戦してください。");
+    return;
+  }
+
+  const requestedCount = Number(document.getElementById("questionCount").value);
+  quiz = buildQuiz(list, requestedCount);
+  index = 0;
+  score = 0;
+  showScreen("quizScreen");
+  showQuestion();
+}
+
+function showQuestion() {
+  const q = quiz[index];
+  document.getElementById("progressText").textContent = `問題 ${index+1} / ${quiz.length}`;
+  document.getElementById("progressBar").style.width = `${(index/quiz.length)*100}%`;
+  document.getElementById("questionMeta").innerHTML =
+    `<span class="badge">${DATASETS[subjectId].label}</span><span class="badge">${q.category}</span><span class="badge">${difficultyLabel(q.difficulty)}</span><span class="badge">頻出度 ${frequencyLabel(q.frequency)}</span>`;
+  document.getElementById("question").textContent = q.question;
+  document.getElementById("feedback").classList.add("hidden");
+  document.getElementById("feedback").innerHTML = "";
+  document.getElementById("nextBtn").classList.add("hidden");
+
+  const div = document.getElementById("choices");
+  div.innerHTML = "";
+
+  q.choices.forEach((choice, i) => {
+    const b = document.createElement("button");
+    b.className = "choice";
+    b.textContent = `${["①","②","③"][i]} ${choice}`;
+    b.onclick = () => answer(i);
+    div.appendChild(b);
+  });
+}
+
+function answer(selected) {
+  const q = quiz[index];
+  const buttons = document.querySelectorAll(".choice");
+  buttons.forEach((b, i) => {
+    b.disabled = true;
+    if (i === q.answer) b.classList.add("actual-correct");
+  });
+
+  const asked = getArray("askedQuestionIds");
+  asked.push(q.id);
+  setArray("askedQuestionIds", asked);
+
+  const isCorrect = selected === q.answer;
+
+  if (isCorrect) {
+    score++;
+    localStorage.setItem(storageKey("correctCount"), stat("correctCount") + 1);
+    buttons[selected].classList.add("selected-correct");
+
+    if (currentMode === "weak") {
+      const wrongIds = getArray("wrongQuestionIds").filter(id => id !== q.id);
+      setArray("wrongQuestionIds", wrongIds);
+    }
+
+    document.getElementById("feedback").innerHTML = `<p class="correct">⭕ 正解</p><p>${q.explanation}</p>`;
+  } else {
+    localStorage.setItem(storageKey("wrongCount"), stat("wrongCount") + 1);
+    buttons[selected].classList.add("selected-wrong");
+    const wrongIds = getArray("wrongQuestionIds");
+    wrongIds.push(q.id);
+    setArray("wrongQuestionIds", wrongIds);
+    document.getElementById("feedback").innerHTML = `<p class="wrong">❌ 不正解</p><p><b>正解：</b>${["①","②","③"][q.answer]} ${q.choices[q.answer]}</p><p>${q.explanation}</p>`;
+  }
+
+  updateStats();
+  document.getElementById("feedback").classList.remove("hidden");
+  document.getElementById("nextBtn").classList.remove("hidden");
+  document.getElementById("progressBar").style.width = `${((index+1)/quiz.length)*100}%`;
+}
+
+document.getElementById("nextBtn").onclick = () => {
+  index++;
+  if (index < quiz.length) {
+    showQuestion();
+  } else {
+    showResult();
+  }
+};
+
+function showResult() {
+  const wrong = quiz.length - score;
+  const rate = quiz.length ? ((score / quiz.length) * 100).toFixed(1) : "0";
+  document.getElementById("scoreText").textContent = `${score} / ${quiz.length} 問正解`;
+  document.getElementById("sessionRate").textContent = rate;
+  document.getElementById("sessionWrong").textContent = wrong;
+
+  let message = "お疲れさまでした。";
+  if (Number(rate) >= 90) message = "すばらしいです。かなり安定しています。";
+  else if (Number(rate) >= 70) message = "良い調子です。間違えた問題を復習しましょう。";
+  else message = "苦手克服モードで復習すると効果的です。";
+  document.getElementById("resultMessage").textContent = message;
+
+  updateStats();
+  showScreen("resultScreen");
+}
+
+function goHome() {
+  updateStats();
+  showScreen("homeScreen");
+}
+
+function resetStatsConfirm() {
+  if (confirm("累計正解・不正解・苦手問題の記録を削除しますか？")) {
+    localStorage.removeItem(storageKey("correctCount"));
+    localStorage.removeItem(storageKey("wrongCount"));
+    localStorage.removeItem(storageKey("wrongQuestionIds"));
+    localStorage.removeItem(storageKey("askedQuestionIds"));
+    updateStats();
+  }
+}
+
+loadQuestions();
+</script>
+</body>
+</html>
