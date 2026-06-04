@@ -1,27 +1,162 @@
 {
   "project": "高校受験社会クイズアプリ",
   "generated_date": "2026-06-04",
-  "questions": {
-    "geography": 700,
-    "history": 500,
-    "total": 1200
-  },
-  "answer_distribution_in_json": {
+  "display_note": "トップ説明文は選択中の科目名のみ表示。初期表示は「地理」。Ver表記なし。",
+  "subjects": {
     "geography": {
-      "answer_0": 691,
-      "answer_1": 9,
-      "answer_2": 0
+      "label": "地理",
+      "file": "geography.json",
+      "question_count": 700,
+      "category_counts": {
+        "世界地理": 274,
+        "工業": 141,
+        "日本地理": 285
+      },
+      "difficulty_counts": {
+        "1": 140,
+        "2": 420,
+        "3": 140
+      },
+      "frequency_counts": {
+        "3": 49,
+        "4": 368,
+        "5": 283
+      },
+      "answer_distribution_in_json": {
+        "0": 691,
+        "1": 9
+      },
+      "duplicate_question_exact_count": 36
     },
     "history": {
-      "answer_0": 500,
-      "answer_1": 0,
-      "answer_2": 0
+      "label": "歴史",
+      "file": "history.json",
+      "question_count": 500,
+      "category_counts": {
+        "中世": 125,
+        "古代": 75,
+        "現代": 27,
+        "近世": 100,
+        "近代": 173
+      },
+      "difficulty_counts": {
+        "1": 100,
+        "2": 300,
+        "3": 100
+      },
+      "frequency_counts": {
+        "3": 9,
+        "4": 212,
+        "5": 279
+      },
+      "answer_distribution_in_json": {
+        "0": 500
+      },
+      "duplicate_question_exact_count": 0
+    },
+    "civics": {
+      "label": "公民",
+      "file": "civics.json",
+      "question_count": 300,
+      "category_counts": {
+        "人権": 31,
+        "国際": 32,
+        "地方自治": 29,
+        "平和主義": 11,
+        "憲法": 13,
+        "政治": 60,
+        "現代社会": 30,
+        "環境": 15,
+        "経済": 79
+      },
+      "difficulty_counts": {
+        "1": 60,
+        "2": 180,
+        "3": 60
+      },
+      "frequency_counts": {
+        "3": 1,
+        "4": 122,
+        "5": 177
+      },
+      "answer_distribution_in_json": {
+        "0": 300
+      },
+      "duplicate_question_exact_count": 0
     }
   },
-  "fix": {
+  "total_questions": 1500,
+  "features": {
     "choice_shuffle": true,
-    "timing": "問題表示時に毎回シャッフル",
-    "data_mutation": "JSONデータは変更せず、index.html側で表示順だけ変更",
-    "judgement": "シャッフル後の正解位置 currentAnswer で判定"
+    "choice_shuffle_timing": "問題表示時に毎回シャッフル",
+    "level_exp": true,
+    "weak_mode": true,
+    "subject_storage_keys": [
+      "geography",
+      "history",
+      "civics"
+    ]
+  },
+  "files": {
+    ".nojekyll": {
+      "size_bytes": 0,
+      "sha256_16": "e3b0c44298fc1c14"
+    },
+    "README_GITHUB_PAGES.md": {
+      "size_bytes": 1761,
+      "sha256_16": "f9418c31624b55e3"
+    },
+    "all_subjects_validation_report.md": {
+      "size_bytes": 1903,
+      "sha256_16": "0a305d056f5439af"
+    },
+    "civics.json": {
+      "size_bytes": 211914,
+      "sha256_16": "4da93808eaa49ecb"
+    },
+    "docs/civics_all_001_300.md": {
+      "size_bytes": 145675,
+      "sha256_16": "2bdbd09ce40db61a"
+    },
+    "docs/civics_check_report.md": {
+      "size_bytes": 764,
+      "sha256_16": "955d774d5e390528"
+    },
+    "docs/civics_duplicate_report.md": {
+      "size_bytes": 168,
+      "sha256_16": "666659005ff88605"
+    },
+    "docs/geography_all_001_700.md": {
+      "size_bytes": 341791,
+      "sha256_16": "0be77586ac3f11f1"
+    },
+    "docs/geography_duplicate_report.md": {
+      "size_bytes": 7547,
+      "sha256_16": "ac3a462adcac251a"
+    },
+    "docs/history_all_001_500.md": {
+      "size_bytes": 216252,
+      "sha256_16": "64dfe282c5d4c31b"
+    },
+    "docs/history_check_report.md": {
+      "size_bytes": 801,
+      "sha256_16": "be7f53e8723c9851"
+    },
+    "docs/history_duplicate_report.md": {
+      "size_bytes": 750,
+      "sha256_16": "200820bdf8f12817"
+    },
+    "geography.json": {
+      "size_bytes": 386392,
+      "sha256_16": "814aef3c979f0ba3"
+    },
+    "history.json": {
+      "size_bytes": 273575,
+      "sha256_16": "93d387032e9f8908"
+    },
+    "index.html": {
+      "size_bytes": 21322,
+      "sha256_16": "fa0766fe017b34ce"
+    }
   }
 }

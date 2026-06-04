@@ -84,6 +84,7 @@ button.actual-correct{border-color:var(--ok);background:#ecfdf5;color:var(--ok)}
         <select id="subject" onchange="changeSubject()">
           <option value="geography">地理</option>
           <option value="history">歴史</option>
+          <option value="civics">公民</option>
         </select>
       </div>
       <div>
@@ -167,6 +168,10 @@ const DATASETS = {
   history: {
     label: "歴史",
     file: "history.json"
+  },
+  civics: {
+    label: "公民",
+    file: "civics.json"
   }
 };
 

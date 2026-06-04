@@ -1,0 +1,5702 @@
+[
+  {
+    "id": 2001,
+    "subject": "civics",
+    "number": 1,
+    "category": "憲法",
+    "question": "公民分野で学ぶ内容として最も適切なものはどれか。",
+    "choices": [
+      "政治・経済・社会のしくみ",
+      "地形や気候だけ",
+      "古代から現代までの出来事だけ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "公民では、日本国憲法、政治、選挙、国会、内閣、裁判所、地方自治、経済、国際社会など、現代社会のしくみを学ぶ。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2002,
+    "subject": "civics",
+    "number": 2,
+    "category": "憲法",
+    "question": "1947年に施行され、現在の日本の政治の基本となっている憲法はどれか。",
+    "choices": [
+      "日本国憲法",
+      "大日本帝国憲法",
+      "十七条の憲法"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法は1946年に公布され、1947年に施行された。現在の日本の政治や人権保障の基本となっている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2003,
+    "subject": "civics",
+    "number": 3,
+    "category": "憲法",
+    "question": "日本国憲法の三つの基本原理として正しい組み合わせはどれか。",
+    "choices": [
+      "国民主権・基本的人権の尊重・平和主義",
+      "富国強兵・殖産興業・文明開化",
+      "御恩・奉公・武士道"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法の三大原理は、国民主権、基本的人権の尊重、平和主義である。公民分野の最重要事項である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2004,
+    "subject": "civics",
+    "number": 4,
+    "category": "憲法",
+    "question": "日本国憲法で、国の政治の最終的な決定権を持つとされるのは誰か。",
+    "choices": [
+      "国民",
+      "天皇",
+      "内閣総理大臣"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法では国民主権が定められている。国の政治の最終的な決定権は国民にある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2005,
+    "subject": "civics",
+    "number": 5,
+    "category": "憲法",
+    "question": "国民主権の説明として最も適切なものはどれか。",
+    "choices": [
+      "国民が政治のあり方を最終的に決めること",
+      "天皇がすべての政治を決めること",
+      "裁判所が法律をつくること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国民主権とは、政治の最終的な決定権が国民にあるという考え方である。選挙を通じて国民の意思が政治に反映される。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2006,
+    "subject": "civics",
+    "number": 6,
+    "category": "憲法",
+    "question": "日本国憲法で、天皇の地位はどのように定められているか。",
+    "choices": [
+      "日本国と日本国民統合の象徴",
+      "国の政治を決定する主権者",
+      "国会議員を選ぶ最高責任者"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法では、天皇は日本国と日本国民統合の象徴とされる。政治を決定する権限は持たない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2007,
+    "subject": "civics",
+    "number": 7,
+    "category": "憲法",
+    "question": "日本国憲法における天皇の国事行為として適切なものはどれか。",
+    "choices": [
+      "内閣の助言と承認にもとづき、法律を公布すること",
+      "自分の判断で法律をつくること",
+      "裁判で有罪か無罪かを決めること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "天皇の国事行為は、内閣の助言と承認にもとづいて行われる。法律の公布、国会の召集、衆議院の解散などが含まれる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2008,
+    "subject": "civics",
+    "number": 8,
+    "category": "憲法",
+    "question": "日本国憲法で、天皇の国事行為に必要とされるものはどれか。",
+    "choices": [
+      "内閣の助言と承認",
+      "裁判所の命令",
+      "都道府県知事の許可"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "天皇の国事行為には、内閣の助言と承認が必要である。その責任は内閣が負う。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2009,
+    "subject": "civics",
+    "number": 9,
+    "category": "人権",
+    "question": "基本的人権の説明として最も適切なものはどれか。",
+    "choices": [
+      "人間が生まれながらに持つ権利",
+      "国会議員だけが持つ権利",
+      "税金を納めた人だけが持つ権利"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "基本的人権は、人間が生まれながらに持つ権利であり、国が勝手に奪うことはできない。日本国憲法では基本的人権の尊重が定められている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2010,
+    "subject": "civics",
+    "number": 10,
+    "category": "人権",
+    "question": "日本国憲法で保障される基本的人権について正しい説明はどれか。",
+    "choices": [
+      "侵すことのできない永久の権利とされている",
+      "政府が自由に取り消せる権利である",
+      "選挙権を持つ人だけに認められる"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法では、基本的人権は侵すことのできない永久の権利とされている。すべての人にとって重要な権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2011,
+    "subject": "civics",
+    "number": 11,
+    "category": "人権",
+    "question": "自由権に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "思想・良心の自由",
+      "教育を受ける権利",
+      "勤労の義務"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "自由権には、思想・良心の自由、信教の自由、表現の自由、居住・移転の自由などが含まれる。国家から不当に干渉されない権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2012,
+    "subject": "civics",
+    "number": 12,
+    "category": "人権",
+    "question": "信教の自由の説明として最も適切なものはどれか。",
+    "choices": [
+      "どの宗教を信じるか、または信じないかを自由に決められること",
+      "国が一つの宗教を強制すること",
+      "宗教活動をすべて禁止すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "信教の自由は、宗教を信じる自由、信じない自由を含む。日本国憲法は、国が特定の宗教を特別に扱うことを制限している。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2013,
+    "subject": "civics",
+    "number": 13,
+    "category": "人権",
+    "question": "表現の自由に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "意見を発表したり、報道したりする自由",
+      "必ず同じ意見を言わなければならないこと",
+      "国がすべての発言を事前に許可すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "表現の自由は、自分の意見を発表したり、報道したりする自由である。民主主義を支える重要な権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2014,
+    "subject": "civics",
+    "number": 14,
+    "category": "人権",
+    "question": "表現の自由が民主主義にとって重要な理由として適切なものはどれか。",
+    "choices": [
+      "国民が意見を出し合い、政治を判断するために必要だから",
+      "選挙をなくすために必要だから",
+      "国会を開かないために必要だから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "民主主義では、国民が情報を得て意見を表明し、政治を判断することが重要である。そのため表現の自由や報道の自由は欠かせない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2015,
+    "subject": "civics",
+    "number": 15,
+    "category": "人権",
+    "question": "身体の自由に関する説明として適切なものはどれか。",
+    "choices": [
+      "正当な理由なく逮捕されたり処罰されたりしない権利",
+      "税金を納めなくてよい権利",
+      "必ず政治家になれる権利"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "身体の自由は、正当な理由なく逮捕・拘束・処罰されない権利である。刑事手続における人権保障と関係が深い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2016,
+    "subject": "civics",
+    "number": 16,
+    "category": "人権",
+    "question": "社会権に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "生存権",
+      "信教の自由",
+      "選挙権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "社会権には、生存権、教育を受ける権利、勤労の権利、労働基本権などが含まれる。人間らしい生活を保障するための権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2017,
+    "subject": "civics",
+    "number": 17,
+    "category": "人権",
+    "question": "日本国憲法第25条に定められている、健康で文化的な最低限度の生活を営む権利はどれか。",
+    "choices": [
+      "生存権",
+      "参政権",
+      "請願権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "生存権は、日本国憲法第25条に定められている。すべての国民が健康で文化的な最低限度の生活を営む権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2018,
+    "subject": "civics",
+    "number": 18,
+    "category": "人権",
+    "question": "生存権と特に関係が深い制度はどれか。",
+    "choices": [
+      "社会保障制度",
+      "参勤交代",
+      "徴兵令"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "生存権は、社会保障制度と関係が深い。年金、医療保険、介護保険、生活保護などは、人々の生活を支える制度である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2019,
+    "subject": "civics",
+    "number": 19,
+    "category": "人権",
+    "question": "教育を受ける権利の説明として適切なものはどれか。",
+    "choices": [
+      "すべての国民が能力に応じて等しく教育を受ける権利",
+      "国会議員だけが学校に通える権利",
+      "教育を受けることをすべて禁止する権利"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "教育を受ける権利は、すべての国民が能力に応じて等しく教育を受ける権利である。保護者には子どもに普通教育を受けさせる義務がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2020,
+    "subject": "civics",
+    "number": 20,
+    "category": "人権",
+    "question": "労働基本権として正しい組み合わせはどれか。",
+    "choices": [
+      "団結権・団体交渉権・団体行動権",
+      "選挙権・被選挙権・請願権",
+      "表現の自由・信教の自由・学問の自由"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "労働基本権は、労働者が労働条件の改善を求めるための権利で、団結権・団体交渉権・団体行動権の三つからなる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2021,
+    "subject": "civics",
+    "number": 21,
+    "category": "人権",
+    "question": "団結権の説明として適切なものはどれか。",
+    "choices": [
+      "労働者が労働組合をつくる権利",
+      "裁判官を選ぶ権利",
+      "税金を自由に決める権利"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "団結権は、労働者が労働条件の改善を求めるために労働組合をつくる権利である。労働基本権の一つである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2022,
+    "subject": "civics",
+    "number": 22,
+    "category": "人権",
+    "question": "参政権に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "選挙権",
+      "生存権",
+      "信教の自由"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "参政権は、国民が政治に参加する権利である。選挙権や被選挙権、最高裁判所裁判官の国民審査などが含まれる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2023,
+    "subject": "civics",
+    "number": 23,
+    "category": "人権",
+    "question": "選挙権の説明として適切なものはどれか。",
+    "choices": [
+      "代表者を選ぶ権利",
+      "裁判を受けない権利",
+      "税金を払わなくてよい権利"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "選挙権は、国民が代表者を選ぶ権利であり、民主政治を支える重要な参政権である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2024,
+    "subject": "civics",
+    "number": 24,
+    "category": "人権",
+    "question": "請求権に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "裁判を受ける権利",
+      "思想・良心の自由",
+      "生存権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "請求権には、裁判を受ける権利、国家賠償請求権、刑事補償請求権などが含まれる。国に対して一定の行為を求める権利である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2025,
+    "subject": "civics",
+    "number": 25,
+    "category": "人権",
+    "question": "公共の福祉の説明として最も適切なものはどれか。",
+    "choices": [
+      "人権どうしが衝突しないように調整する考え方",
+      "国民の人権をすべてなくす考え方",
+      "政府が自由に人権を制限できる考え方"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公共の福祉は、人権どうしが衝突したときに調整するための考え方である。人権は大切だが、他人の権利を侵害してよいわけではない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2026,
+    "subject": "civics",
+    "number": 26,
+    "category": "人権",
+    "question": "法の下の平等の説明として最も適切なものはどれか。",
+    "choices": [
+      "すべての人が法律上平等に扱われること",
+      "すべての人の収入を必ず同じにすること",
+      "国会議員だけを特別に扱うこと"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "法の下の平等とは、すべての人が法律上平等に扱われるという考え方である。性別、社会的身分、門地などによる差別は認められない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2027,
+    "subject": "civics",
+    "number": 27,
+    "category": "人権",
+    "question": "日本国憲法で禁止されている差別として適切なものはどれか。",
+    "choices": [
+      "性別や社会的身分による差別",
+      "努力の違いによる成績差",
+      "年齢に応じた制度の違いすべて"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法は、法の下の平等を定め、性別、社会的身分、門地などによる差別を禁止している。合理的な理由のある区別とは分けて考える必要がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2028,
+    "subject": "civics",
+    "number": 28,
+    "category": "人権",
+    "question": "男女が対等な立場で社会に参加することをめざす社会はどれか。",
+    "choices": [
+      "男女共同参画社会",
+      "身分制社会",
+      "荘園制社会"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "男女共同参画社会とは、男女が互いに尊重し合い、家庭・職場・地域・政治などに対等に参加できる社会をめざす考え方である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2029,
+    "subject": "civics",
+    "number": 29,
+    "category": "人権",
+    "question": "障がいのある人もない人も共に暮らしやすい社会をつくる考え方として適切なものはどれか。",
+    "choices": [
+      "ノーマライゼーション",
+      "鎖国",
+      "重商主義"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "ノーマライゼーションとは、障がいのある人もない人も、地域社会の中で共に普通の生活を送れるようにする考え方である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2030,
+    "subject": "civics",
+    "number": 30,
+    "category": "人権",
+    "question": "年齢や障がいの有無にかかわらず、多くの人が使いやすいように設計する考え方はどれか。",
+    "choices": [
+      "ユニバーサルデザイン",
+      "ブロック経済",
+      "参勤交代"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "ユニバーサルデザインは、高齢者、障がいのある人、子ども、外国人など、できるだけ多くの人が使いやすいように設計する考え方である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2031,
+    "subject": "civics",
+    "number": 31,
+    "category": "人権",
+    "question": "情報化社会の進展により重要性が高まった、個人情報を守る権利はどれか。",
+    "choices": [
+      "プライバシーの権利",
+      "徴兵の義務",
+      "関税自主権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "プライバシーの権利は、私生活や個人情報をみだりに公開されない権利である。情報化社会の進展により、重要性が高まっている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2032,
+    "subject": "civics",
+    "number": 32,
+    "category": "人権",
+    "question": "自分に関する情報の開示・訂正・利用停止などを求める権利と関係が深いものはどれか。",
+    "choices": [
+      "自己情報コントロール権",
+      "選挙権",
+      "団結権"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "自己情報コントロール権は、自分に関する情報を自分で管理する権利である。個人情報保護やプライバシーの権利と関係が深い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2033,
+    "subject": "civics",
+    "number": 33,
+    "category": "人権",
+    "question": "国や地方公共団体が持つ情報の公開を求める権利と関係が深いものはどれか。",
+    "choices": [
+      "知る権利",
+      "生存権",
+      "勤労の義務"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "知る権利は、国民が政治や行政に関する情報を知る権利である。情報公開制度や報道の自由と関係が深い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2034,
+    "subject": "civics",
+    "number": 34,
+    "category": "人権",
+    "question": "知る権利が民主政治にとって重要な理由として適切なものはどれか。",
+    "choices": [
+      "国民が政治を判断するためには情報が必要だから",
+      "国民が選挙に参加しないようにするため",
+      "政府が情報をすべて隠すため"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "民主政治では、国民が正しい情報をもとに政治を判断することが重要である。そのため、知る権利や情報公開は民主政治を支える。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2035,
+    "subject": "civics",
+    "number": 35,
+    "category": "人権",
+    "question": "良好な環境の中で生活することを求める権利はどれか。",
+    "choices": [
+      "環境権",
+      "被選挙権",
+      "裁判を受ける権利"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "環境権は、良好な環境の中で健康に生活することを求める権利である。公害問題や環境保全と関係が深い新しい人権である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2036,
+    "subject": "civics",
+    "number": 36,
+    "category": "人権",
+    "question": "新しい人権が主張されるようになった背景として適切なものはどれか。",
+    "choices": [
+      "社会の変化により、従来の人権だけでは対応しにくい問題が生じたから",
+      "憲法が人権をすべて禁止したから",
+      "選挙制度がなくなったから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "情報化、都市化、環境問題など社会の変化により、プライバシーの権利、知る権利、環境権などの新しい人権が主張されるようになった。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2037,
+    "subject": "civics",
+    "number": 37,
+    "category": "憲法",
+    "question": "日本国憲法で定められている国民の三大義務として正しい組み合わせはどれか。",
+    "choices": [
+      "教育を受けさせる義務・勤労の義務・納税の義務",
+      "選挙の義務・兵役の義務・裁判の義務",
+      "読書の義務・旅行の義務・貯金の義務"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法の三大義務は、子どもに普通教育を受けさせる義務、勤労の義務、納税の義務である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2038,
+    "subject": "civics",
+    "number": 38,
+    "category": "憲法",
+    "question": "保護者が子どもに普通教育を受けさせる義務はどれか。",
+    "choices": [
+      "教育を受けさせる義務",
+      "勤労の義務",
+      "納税の義務"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "教育を受けさせる義務は、保護者が子どもに普通教育を受けさせる義務である。子ども自身には教育を受ける権利がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2039,
+    "subject": "civics",
+    "number": 39,
+    "category": "憲法",
+    "question": "国や地方公共団体の活動を支えるため、国民が税金を納める義務はどれか。",
+    "choices": [
+      "納税の義務",
+      "団体行動権",
+      "表現の自由"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "納税の義務は、国民が税金を納める義務である。税金は社会保障、教育、公共事業、防災など公共サービスを支える財源となる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2040,
+    "subject": "civics",
+    "number": 40,
+    "category": "憲法",
+    "question": "日本国憲法で、国民に課されていない義務はどれか。",
+    "choices": [
+      "兵役の義務",
+      "納税の義務",
+      "勤労の義務"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法の三大義務は、教育を受けさせる義務、勤労の義務、納税の義務であり、兵役の義務は定められていない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2041,
+    "subject": "civics",
+    "number": 41,
+    "category": "平和主義",
+    "question": "日本国憲法第9条が定めている内容として最も適切なものはどれか。",
+    "choices": [
+      "戦争の放棄",
+      "参勤交代",
+      "地租改正"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法第9条は、戦争の放棄、戦力の不保持、交戦権の否認を定めている。平和主義の中心となる条文である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2042,
+    "subject": "civics",
+    "number": 42,
+    "category": "平和主義",
+    "question": "日本国憲法の平和主義と関係が深い条文はどれか。",
+    "choices": [
+      "第9条",
+      "第25条",
+      "第96条"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法第9条は平和主義と関係が深い。第25条は生存権、第96条は憲法改正の手続きに関する条文である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2043,
+    "subject": "civics",
+    "number": 43,
+    "category": "平和主義",
+    "question": "日本国憲法第9条で、日本が持たないとされているものはどれか。",
+    "choices": [
+      "戦力",
+      "選挙権",
+      "基本的人権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法第9条では、戦争放棄とともに、陸海空軍その他の戦力を保持しないことが定められている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2044,
+    "subject": "civics",
+    "number": 44,
+    "category": "平和主義",
+    "question": "日本国憲法第9条で認めないとされている国家の権利はどれか。",
+    "choices": [
+      "交戦権",
+      "請願権",
+      "生存権"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "日本国憲法第9条では、国の交戦権は認めないと定めている。交戦権とは、国が戦争を行う権利のことである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2045,
+    "subject": "civics",
+    "number": 45,
+    "category": "平和主義",
+    "question": "日本の平和主義について正しい説明はどれか。",
+    "choices": [
+      "戦争の反省にもとづき、戦争を放棄する考え方である",
+      "他国を武力で支配する考え方である",
+      "国民の人権を制限するための考え方である"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法の平和主義は、第二次世界大戦の反省にもとづき、戦争を放棄し、平和を重視する考え方である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2046,
+    "subject": "civics",
+    "number": 46,
+    "category": "平和主義",
+    "question": "自衛隊について、公民でよく問われる論点として適切なものはどれか。",
+    "choices": [
+      "憲法第9条との関係",
+      "参勤交代との関係",
+      "律令制度との関係"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "自衛隊については、国の安全を守る役割と、日本国憲法第9条の平和主義との関係が公民でよく問われる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2047,
+    "subject": "civics",
+    "number": 47,
+    "category": "平和主義",
+    "question": "非核三原則として正しい組み合わせはどれか。",
+    "choices": [
+      "持たず・つくらず・持ち込ませず",
+      "作らず・売らず・買わず",
+      "読まず・書かず・話さず"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "非核三原則は、核兵器を持たず、つくらず、持ち込ませずという日本の基本方針である。平和主義と関連して出題されやすい。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2048,
+    "subject": "civics",
+    "number": 48,
+    "category": "平和主義",
+    "question": "非核三原則が関係する兵器はどれか。",
+    "choices": [
+      "核兵器",
+      "青銅器",
+      "蒸気機関"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "非核三原則は、核兵器に関する日本の方針である。唯一の戦争被爆国としての日本の立場と結びつけて理解する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2049,
+    "subject": "civics",
+    "number": 49,
+    "category": "平和主義",
+    "question": "国際連合の平和維持活動を表す略称はどれか。",
+    "choices": [
+      "PKO",
+      "NGO",
+      "NPO"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "PKOは国連平和維持活動を表す略称で、紛争地域の停戦監視や復興支援などを行う。日本の国際貢献とも関係する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2050,
+    "subject": "civics",
+    "number": 50,
+    "category": "平和主義",
+    "question": "平和主義を学ぶうえで重要な見方として適切なものはどれか。",
+    "choices": [
+      "憲法の考え方と国際社会での役割を関連づけて考えること",
+      "戦争の名前だけを暗記し、憲法を見ないこと",
+      "平和と人権はまったく関係がないと考えること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "平和主義では、日本国憲法第9条の考え方、自衛隊、非核三原則、国際協力などを関連づけて理解することが大切である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2051,
+    "subject": "civics",
+    "number": 51,
+    "category": "政治",
+    "question": "民主主義の説明として最も適切なものはどれか。",
+    "choices": [
+      "国民の意思にもとづいて政治を行うしくみ",
+      "一人の支配者がすべてを決めるしくみ",
+      "裁判所だけが政治を行うしくみ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "民主主義とは、国民の意思にもとづいて政治を行う考え方である。日本では選挙を通じて代表者を選ぶ間接民主制が中心である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2052,
+    "subject": "civics",
+    "number": 52,
+    "category": "政治",
+    "question": "国民が代表者を選び、その代表者が政治を行うしくみはどれか。",
+    "choices": [
+      "間接民主制",
+      "直接民主制",
+      "摂関政治"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "間接民主制は、国民が選挙で代表者を選び、その代表者が政治を行うしくみである。現代の多くの国で採用されている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2053,
+    "subject": "civics",
+    "number": 53,
+    "category": "政治",
+    "question": "国民が政治について直接決定するしくみはどれか。",
+    "choices": [
+      "直接民主制",
+      "間接民主制",
+      "幕府政治"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "直接民主制は、国民が直接政治上の決定を行うしくみである。地方自治の住民投票などと関連して出題されることがある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2054,
+    "subject": "civics",
+    "number": 54,
+    "category": "政治",
+    "question": "民主政治で選挙が重要な理由として適切なものはどれか。",
+    "choices": [
+      "国民の意思を政治に反映させるため",
+      "国民の意見を政治から切り離すため",
+      "国会を開かないようにするため"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "選挙は、国民が代表者を選び、自分たちの意思を政治に反映させるための重要なしくみである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2055,
+    "subject": "civics",
+    "number": 55,
+    "category": "政治",
+    "question": "日本の選挙の原則として正しい組み合わせはどれか。",
+    "choices": [
+      "普通選挙・平等選挙・直接選挙・秘密選挙",
+      "身分選挙・不平等選挙・公開選挙",
+      "武士選挙・大名選挙・藩選挙"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本の選挙には、普通選挙、平等選挙、直接選挙、秘密選挙の原則がある。公正な選挙を支える基本である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2056,
+    "subject": "civics",
+    "number": 56,
+    "category": "政治",
+    "question": "一定の年齢に達したすべての国民に選挙権を認める原則はどれか。",
+    "choices": [
+      "普通選挙",
+      "平等選挙",
+      "秘密選挙"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "普通選挙は、財産や納税額、性別などによって制限せず、一定の年齢に達した国民に選挙権を認める原則である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2057,
+    "subject": "civics",
+    "number": 57,
+    "category": "政治",
+    "question": "一人一票を原則とし、票の価値を平等に扱う選挙の原則はどれか。",
+    "choices": [
+      "平等選挙",
+      "公開選挙",
+      "制限選挙"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "平等選挙は、選挙人が一人一票を持ち、票の価値が平等であるという原則である。一票の格差問題とも関係する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2058,
+    "subject": "civics",
+    "number": 58,
+    "category": "政治",
+    "question": "有権者が候補者や政党へ直接投票する選挙の原則はどれか。",
+    "choices": [
+      "直接選挙",
+      "間接選挙",
+      "代理選挙"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "直接選挙は、有権者が候補者や政党に直接投票する原則である。代表者を国民の意思で選ぶためのしくみである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2059,
+    "subject": "civics",
+    "number": 59,
+    "category": "政治",
+    "question": "誰に投票したかを他人に知られないようにする選挙の原則はどれか。",
+    "choices": [
+      "秘密選挙",
+      "公開選挙",
+      "強制選挙"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "秘密選挙は、誰に投票したかを他人に知られないようにする原則である。圧力や買収を防ぎ、自由な投票を守る。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2060,
+    "subject": "civics",
+    "number": 60,
+    "category": "政治",
+    "question": "現在の日本で、国政選挙の選挙権が認められる年齢はどれか。",
+    "choices": [
+      "満18歳以上",
+      "満20歳以上",
+      "満25歳以上"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "現在の日本では、国政選挙の選挙権は満18歳以上の日本国民に認められている。2016年から18歳選挙権が実施された。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2061,
+    "subject": "civics",
+    "number": 61,
+    "category": "政治",
+    "question": "選挙で当選するために、候補者が有権者に金品を渡す行為は何と呼ばれるか。",
+    "choices": [
+      "買収",
+      "請願",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "買収は、候補者や関係者が有権者に金品を渡して投票を依頼する不正行為である。公正な選挙を損なうため禁止されている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2062,
+    "subject": "civics",
+    "number": 62,
+    "category": "政治",
+    "question": "選挙区ごとに一人を選ぶ制度はどれか。",
+    "choices": [
+      "小選挙区制",
+      "比例代表制",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "小選挙区制は、一つの選挙区から一人の代表を選ぶ制度である。大政党に有利になりやすい特徴がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2063,
+    "subject": "civics",
+    "number": 63,
+    "category": "政治",
+    "question": "政党の得票率に応じて議席を配分する制度はどれか。",
+    "choices": [
+      "比例代表制",
+      "小選挙区制",
+      "世論調査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "比例代表制は、政党の得票率に応じて議席を配分する制度である。少数意見が反映されやすい特徴がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2064,
+    "subject": "civics",
+    "number": 64,
+    "category": "政治",
+    "question": "小選挙区制の特徴として適切なものはどれか。",
+    "choices": [
+      "大政党に有利になりやすい",
+      "すべての政党に必ず同じ議席を与える",
+      "選挙を行わず代表を決める"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "小選挙区制では、各選挙区で最も多く得票した一人だけが当選するため、大政党に有利になりやすい。一方で死票が多くなることがある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2065,
+    "subject": "civics",
+    "number": 65,
+    "category": "政治",
+    "question": "比例代表制の特徴として適切なものはどれか。",
+    "choices": [
+      "少数意見が議席に反映されやすい",
+      "一つの選挙区から必ず一人だけ選ぶ",
+      "得票率に関係なく議席を配分する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "比例代表制は、得票率に応じて議席を配分するため、小政党や少数意見も議席に反映されやすい特徴がある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2066,
+    "subject": "civics",
+    "number": 66,
+    "category": "政治",
+    "question": "衆議院議員選挙で用いられている制度として正しいものはどれか。",
+    "choices": [
+      "小選挙区比例代表並立制",
+      "完全な直接民主制",
+      "身分制選挙"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院議員選挙では、小選挙区制と比例代表制を組み合わせた小選挙区比例代表並立制が用いられている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2067,
+    "subject": "civics",
+    "number": 67,
+    "category": "政治",
+    "question": "選挙で、当選者に結びつかなかった票を何というか。",
+    "choices": [
+      "死票",
+      "世論",
+      "請願"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "死票とは、落選した候補者に投じられるなど、当選者に結びつかなかった票である。選挙制度の特徴を考えるうえで重要である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2068,
+    "subject": "civics",
+    "number": 68,
+    "category": "政治",
+    "question": "一票の格差の説明として最も適切なものはどれか。",
+    "choices": [
+      "選挙区によって一票の価値に差があること",
+      "投票用紙の大きさが違うこと",
+      "候補者の年齢に差があること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "一票の格差とは、選挙区ごとの人口差により、一票の価値に差が生じる問題である。平等選挙の原則と関係が深い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2069,
+    "subject": "civics",
+    "number": 69,
+    "category": "政治",
+    "question": "政党の説明として最も適切なものはどれか。",
+    "choices": [
+      "政治上の考え方が近い人々が政権獲得などをめざしてつくる団体",
+      "裁判官だけでつくる団体",
+      "税金を集めるためだけの団体"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "政党は、政治上の考え方や政策が近い人々が集まり、選挙を通じて政権獲得や政策実現をめざす団体である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2070,
+    "subject": "civics",
+    "number": 70,
+    "category": "政治",
+    "question": "議会で最も多くの議席を持つ政党は何と呼ばれるか。",
+    "choices": [
+      "与党",
+      "野党",
+      "圧力団体"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "与党は政権を担当する政党である。議会で多数を占める政党が中心となって内閣をつくることが多い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2071,
+    "subject": "civics",
+    "number": 71,
+    "category": "政治",
+    "question": "政権を担当せず、政府の政策を批判・監視する政党は何と呼ばれるか。",
+    "choices": [
+      "野党",
+      "与党",
+      "内閣"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "野党は政権を担当していない政党であり、政府や与党の政策を批判・監視する役割を持つ。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2072,
+    "subject": "civics",
+    "number": 72,
+    "category": "政治",
+    "question": "複数の政党が協力してつくる政権を何というか。",
+    "choices": [
+      "連立政権",
+      "摂関政治",
+      "鎖国体制"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "連立政権は、複数の政党が協力してつくる政権である。単独の政党だけでは多数を確保できない場合などに成立する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2073,
+    "subject": "civics",
+    "number": 73,
+    "category": "政治",
+    "question": "世論の説明として最も適切なものはどれか。",
+    "choices": [
+      "社会の多くの人々が持つ意見や考え",
+      "裁判所だけが出す命令",
+      "税金の金額だけを示す表"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "世論とは、社会の多くの人々が持つ意見や考えである。政治家や政党は世論を意識して政策を考えることが多い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2074,
+    "subject": "civics",
+    "number": 74,
+    "category": "政治",
+    "question": "世論形成に大きな影響を与える新聞・テレビ・インターネットなどをまとめて何というか。",
+    "choices": [
+      "マスメディア",
+      "地方公共団体",
+      "国際連合"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "マスメディアは、新聞、テレビ、ラジオ、インターネットなど、多くの人々に情報を伝える手段である。世論形成に大きな影響を持つ。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2075,
+    "subject": "civics",
+    "number": 75,
+    "category": "政治",
+    "question": "政治について判断するとき、情報を受け取る側に求められる姿勢として適切なものはどれか。",
+    "choices": [
+      "複数の情報を比べ、根拠を確認する",
+      "ひとつの情報だけを必ず信じる",
+      "情報をまったく見ない"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "政治を判断するには、マスメディアやインターネットの情報をうのみにせず、複数の情報を比べ、根拠を確認する姿勢が大切である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2076,
+    "subject": "civics",
+    "number": 76,
+    "category": "政治",
+    "question": "日本国憲法で「国権の最高機関」とされている機関はどれか。",
+    "choices": [
+      "国会",
+      "内閣",
+      "最高裁判所"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国会は日本国憲法で国権の最高機関とされている。国民によって選ばれた議員で構成されるため、国民の意思を反映する中心的な機関である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2077,
+    "subject": "civics",
+    "number": 77,
+    "category": "政治",
+    "question": "国会が「唯一の立法機関」と呼ばれる理由として適切なものはどれか。",
+    "choices": [
+      "法律をつくる中心的な機関だから",
+      "裁判を行う機関だから",
+      "行政をすべて直接行う機関だから"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国会は法律を制定する唯一の立法機関である。法律をつくることは国会の最も重要な仕事の一つである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2078,
+    "subject": "civics",
+    "number": 78,
+    "category": "政治",
+    "question": "日本の国会が二つの議院からなる制度を何というか。",
+    "choices": [
+      "二院制",
+      "三権分立",
+      "連立政権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本の国会は衆議院と参議院からなる二院制を採用している。慎重に話し合い、国民の意思を多面的に反映させるためである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2079,
+    "subject": "civics",
+    "number": 79,
+    "category": "政治",
+    "question": "日本の国会を構成する二つの議院として正しい組み合わせはどれか。",
+    "choices": [
+      "衆議院・参議院",
+      "貴族院・元老院",
+      "最高裁判所・内閣"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本の国会は、衆議院と参議院で構成されている。大日本帝国憲法下の貴族院とは異なる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2080,
+    "subject": "civics",
+    "number": 80,
+    "category": "政治",
+    "question": "衆議院の任期として正しいものはどれか。",
+    "choices": [
+      "4年",
+      "6年",
+      "10年"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院議員の任期は4年である。ただし衆議院は解散されることがあるため、任期満了前に選挙が行われることも多い。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2081,
+    "subject": "civics",
+    "number": 81,
+    "category": "政治",
+    "question": "参議院の任期として正しいものはどれか。",
+    "choices": [
+      "6年",
+      "4年",
+      "2年"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "参議院議員の任期は6年で、3年ごとに半数が改選される。参議院には解散がない点も重要である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2082,
+    "subject": "civics",
+    "number": 82,
+    "category": "政治",
+    "question": "衆議院にだけ認められている制度として正しいものはどれか。",
+    "choices": [
+      "解散",
+      "国民審査",
+      "違憲審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院には解散がある。解散後には総選挙が行われ、国民の意思をあらためて問うことになる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2083,
+    "subject": "civics",
+    "number": 83,
+    "category": "政治",
+    "question": "参議院について正しい説明はどれか。",
+    "choices": [
+      "解散がなく、3年ごとに半数が改選される",
+      "任期は4年で必ず全員が同時に改選される",
+      "内閣総理大臣を直接選ぶ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "参議院には解散がなく、任期6年のうち3年ごとに半数が改選される。衆議院との違いとして頻出である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2084,
+    "subject": "civics",
+    "number": 84,
+    "category": "政治",
+    "question": "法律案の議決などで、衆議院が参議院より強い権限を持つことを何というか。",
+    "choices": [
+      "衆議院の優越",
+      "違憲審査制",
+      "地方分権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院の優越とは、法律案、予算、条約、内閣総理大臣の指名などで、衆議院の議決が参議院より優先されるしくみである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2085,
+    "subject": "civics",
+    "number": 85,
+    "category": "政治",
+    "question": "衆議院の優越が認められる理由として適切なものはどれか。",
+    "choices": [
+      "任期が短く解散もあり、国民の意思を反映しやすいから",
+      "議員数が必ず少ないから",
+      "裁判官だけで構成されるから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院は任期が4年と短く、解散もあるため、参議院より国民の意思を反映しやすいと考えられている。そのため衆議院の優越が認められている。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2086,
+    "subject": "civics",
+    "number": 86,
+    "category": "政治",
+    "question": "国会の仕事として適切なものはどれか。",
+    "choices": [
+      "法律の制定",
+      "刑罰の執行",
+      "企業の商品の販売"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国会の主な仕事には、法律の制定、予算の議決、条約の承認、内閣総理大臣の指名などがある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2087,
+    "subject": "civics",
+    "number": 87,
+    "category": "政治",
+    "question": "国会が内閣総理大臣を選ぶことを何というか。",
+    "choices": [
+      "内閣総理大臣の指名",
+      "国民審査",
+      "住民投票"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "内閣総理大臣は国会議員の中から国会の議決で指名される。実際には衆議院の議決が優先される。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2088,
+    "subject": "civics",
+    "number": 88,
+    "category": "政治",
+    "question": "国の収入と支出の計画で、国会が議決するものはどれか。",
+    "choices": [
+      "予算",
+      "判決",
+      "条例"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "予算は国の収入と支出の計画であり、国会で審議・議決される。予算の先議権は衆議院にある。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2089,
+    "subject": "civics",
+    "number": 89,
+    "category": "政治",
+    "question": "国会の種類のうち、毎年1回、1月中に召集されるものはどれか。",
+    "choices": [
+      "通常国会",
+      "臨時国会",
+      "特別国会"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "通常国会は毎年1回、1月中に召集され、予算や法律案などを審議する。常会とも呼ばれる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2090,
+    "subject": "civics",
+    "number": 90,
+    "category": "政治",
+    "question": "衆議院解散後の総選挙の後に開かれ、内閣総理大臣を指名する国会はどれか。",
+    "choices": [
+      "特別国会",
+      "通常国会",
+      "地方議会"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "特別国会は、衆議院解散後の総選挙の後に開かれる国会で、内閣総理大臣の指名が行われる。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2091,
+    "subject": "civics",
+    "number": 91,
+    "category": "政治",
+    "question": "内閣の説明として最も適切なものはどれか。",
+    "choices": [
+      "行政権を担当する機関",
+      "法律を最終的に制定する機関",
+      "裁判だけを行う機関"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "内閣は行政権を担当する機関である。内閣総理大臣と国務大臣で構成され、法律や予算にもとづいて政治を実行する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2092,
+    "subject": "civics",
+    "number": 92,
+    "category": "政治",
+    "question": "内閣を構成するものとして正しい組み合わせはどれか。",
+    "choices": [
+      "内閣総理大臣と国務大臣",
+      "裁判官と検察官",
+      "知事と市町村長"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "内閣は内閣総理大臣と国務大臣で構成される。内閣総理大臣は国会議員の中から国会が指名する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2093,
+    "subject": "civics",
+    "number": 93,
+    "category": "政治",
+    "question": "内閣総理大臣を任命するのは誰か。",
+    "choices": [
+      "天皇",
+      "最高裁判所長官",
+      "都道府県知事"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "内閣総理大臣は国会の指名にもとづき、天皇が任命する。天皇の国事行為の一つである。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2094,
+    "subject": "civics",
+    "number": 94,
+    "category": "政治",
+    "question": "内閣の仕事として適切なものはどれか。",
+    "choices": [
+      "法律を執行し、外交を処理すること",
+      "法律案を必ず否決すること",
+      "裁判で有罪判決を出すこと"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "内閣は法律を執行し、予算を作成し、外交関係を処理するなどの行政を担当する。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2095,
+    "subject": "civics",
+    "number": 95,
+    "category": "政治",
+    "question": "日本の政治で、内閣が国会の信任にもとづいて成り立つしくみはどれか。",
+    "choices": [
+      "議院内閣制",
+      "大統領制",
+      "摂関政治"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "議院内閣制では、内閣は国会、とくに衆議院の信任にもとづいて成立する。内閣は国会に対して連帯して責任を負う。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2096,
+    "subject": "civics",
+    "number": 96,
+    "category": "政治",
+    "question": "衆議院で内閣不信任決議が可決された場合、内閣がとる対応として正しいものはどれか。",
+    "choices": [
+      "衆議院を解散するか、総辞職する",
+      "参議院を必ず解散する",
+      "最高裁判所を廃止する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "衆議院で内閣不信任決議が可決された場合、内閣は10日以内に衆議院を解散しない限り、総辞職しなければならない。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2097,
+    "subject": "civics",
+    "number": 97,
+    "category": "政治",
+    "question": "裁判所の役割として最も適切なものはどれか。",
+    "choices": [
+      "法にもとづいて争いを解決すること",
+      "予算を作成すること",
+      "国会議員を任命すること"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "裁判所は司法権を担当し、法にもとづいて争いを解決する。国民の権利を守る役割も持つ。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2098,
+    "subject": "civics",
+    "number": 98,
+    "category": "政治",
+    "question": "法律や命令が憲法に違反していないかを判断する権限を何というか。",
+    "choices": [
+      "違憲審査権",
+      "衆議院の優越",
+      "国政調査権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "違憲審査権は、法律や命令、処分などが憲法に違反していないかを裁判所が判断する権限である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2099,
+    "subject": "civics",
+    "number": 99,
+    "category": "政治",
+    "question": "最高裁判所の裁判官について、国民が適任かどうかを審査する制度はどれか。",
+    "choices": [
+      "国民審査",
+      "普通選挙",
+      "請願"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "最高裁判所裁判官の国民審査は、衆議院議員総選挙の際に行われ、国民が裁判官を辞めさせるかどうかを判断する制度である。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2100,
+    "subject": "civics",
+    "number": 100,
+    "category": "政治",
+    "question": "立法・行政・司法を分け、互いに抑制し合うしくみはどれか。",
+    "choices": [
+      "三権分立",
+      "二院制",
+      "地方自治"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "三権分立は、国会の立法権、内閣の行政権、裁判所の司法権を分け、互いに抑制し合うしくみである。権力の集中を防ぎ、国民の権利を守る。",
+    "source": "civics_001_100.md"
+  },
+  {
+    "id": 2101,
+    "subject": "civics",
+    "number": 101,
+    "category": "地方自治",
+    "question": "地方自治の説明として最も適切なものはどれか。",
+    "choices": [
+      "地域のことを住民の意思にもとづいて決めるしくみ",
+      "国会だけがすべての地域の細かい問題を決めるしくみ",
+      "裁判所が地方の予算を直接作るしくみ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方自治とは、都道府県や市町村などの地方公共団体が、地域の問題を住民の意思にもとづいて処理するしくみである。民主主義の学校とも呼ばれる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2102,
+    "subject": "civics",
+    "number": 102,
+    "category": "地方自治",
+    "question": "地方公共団体として正しい組み合わせはどれか。",
+    "choices": [
+      "都道府県・市町村",
+      "国会・内閣",
+      "最高裁判所・高等裁判所"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方公共団体には、都道府県と市町村がある。地域の行政サービスや条例の制定などを行う。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2103,
+    "subject": "civics",
+    "number": 103,
+    "category": "地方自治",
+    "question": "地方自治で「首長」と呼ばれるものとして適切なものはどれか。",
+    "choices": [
+      "都道府県知事や市町村長",
+      "衆議院議長だけ",
+      "最高裁判所長官だけ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "首長とは、地方公共団体の行政を担当する代表者であり、都道府県知事や市町村長を指す。住民の直接選挙で選ばれる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2104,
+    "subject": "civics",
+    "number": 104,
+    "category": "地方自治",
+    "question": "都道府県知事や市町村長は、どのように選ばれるか。",
+    "choices": [
+      "住民の直接選挙",
+      "内閣総理大臣の任命だけ",
+      "最高裁判所の判決"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "都道府県知事や市町村長は、住民の直接選挙によって選ばれる。地方自治では、住民が直接政治に参加する機会が多い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2105,
+    "subject": "civics",
+    "number": 105,
+    "category": "地方自治",
+    "question": "地方議会の議員は、どのように選ばれるか。",
+    "choices": [
+      "住民の直接選挙",
+      "天皇の任命",
+      "裁判所の指名"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方議会の議員も、住民の直接選挙で選ばれる。地方議会は条例や予算について審議・議決する。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2106,
+    "subject": "civics",
+    "number": 106,
+    "category": "地方自治",
+    "question": "地方議会の主な仕事として適切なものはどれか。",
+    "choices": [
+      "条例や予算を議決すること",
+      "外交交渉を行うこと",
+      "最高裁判所裁判官を任命すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方議会は、地域のきまりである条例や、地方公共団体の予算を審議・議決する。国会と同じく、行政を監視する役割もある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2107,
+    "subject": "civics",
+    "number": 107,
+    "category": "地方自治",
+    "question": "地方公共団体が地域の実情に合わせて定めるきまりはどれか。",
+    "choices": [
+      "条例",
+      "法律",
+      "条約"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "条例は、地方公共団体が地域の実情に合わせて定めるきまりである。法律の範囲内で制定される。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2108,
+    "subject": "civics",
+    "number": 108,
+    "category": "地方自治",
+    "question": "条例を制定する機関はどれか。",
+    "choices": [
+      "地方議会",
+      "最高裁判所",
+      "国際連合"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "条例は地方議会で議決される。首長が提案することもあるが、最終的には地方議会が制定する。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2109,
+    "subject": "civics",
+    "number": 109,
+    "category": "地方自治",
+    "question": "地方公共団体の収入と支出の計画を何というか。",
+    "choices": [
+      "予算",
+      "判決",
+      "条約"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地方公共団体の予算は、地域の行政サービスを行うための収入と支出の計画である。地方議会で審議・議決される。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2110,
+    "subject": "civics",
+    "number": 110,
+    "category": "地方自治",
+    "question": "地方自治が「民主主義の学校」と呼ばれる理由として適切なものはどれか。",
+    "choices": [
+      "住民が身近な政治に参加し、民主主義を学べるから",
+      "学校の授業だけを地方自治というから",
+      "裁判官がすべての地域を直接支配するから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地方自治では、住民が選挙や請求権などを通じて身近な政治に参加できる。そのため民主主義を実際に学ぶ場として「民主主義の学校」と呼ばれる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2111,
+    "subject": "civics",
+    "number": 111,
+    "category": "地方自治",
+    "question": "地方自治で、住民が条例の制定や改廃を求める権利はどれか。",
+    "choices": [
+      "直接請求権",
+      "団結権",
+      "領事裁判権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "直接請求権は、住民が一定数の署名を集めて、条例の制定・改廃、議会の解散、首長や議員の解職などを求める権利である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2112,
+    "subject": "civics",
+    "number": 112,
+    "category": "地方自治",
+    "question": "住民が一定数の署名を集めて、条例の制定や改廃を求める請求はどれか。",
+    "choices": [
+      "条例の制定・改廃請求",
+      "内閣不信任決議",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "住民は一定数の署名を集めることで、地方公共団体に条例の制定や改廃を請求できる。住民参加の重要な制度である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2113,
+    "subject": "civics",
+    "number": 113,
+    "category": "地方自治",
+    "question": "住民が議会の解散や首長の解職を求める制度はどれか。",
+    "choices": [
+      "リコール",
+      "バリアフリー",
+      "プライバシー"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "リコールとは、住民が一定数の署名を集めて、議会の解散や首長・議員の解職を求める制度である。住民による監視のしくみである。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2114,
+    "subject": "civics",
+    "number": 114,
+    "category": "地方自治",
+    "question": "地方自治における住民投票の説明として適切なものはどれか。",
+    "choices": [
+      "地域の重要な問題について住民の意思を直接問う制度",
+      "裁判官だけが投票する制度",
+      "国会議員を任命する制度"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "住民投票は、地域の重要な問題について住民の意思を直接問う制度である。条例にもとづいて実施されることが多い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2115,
+    "subject": "civics",
+    "number": 115,
+    "category": "地方自治",
+    "question": "地方分権の説明として最も適切なものはどれか。",
+    "choices": [
+      "国の権限を地方に移し、地域に合った行政を進めること",
+      "地方の権限をすべて国に集めること",
+      "住民の選挙権をなくすこと"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方分権とは、国に集中していた権限や財源を地方公共団体へ移し、地域の実情に合った行政を進める考え方である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2116,
+    "subject": "civics",
+    "number": 116,
+    "category": "地方自治",
+    "question": "地方分権が進められる理由として適切なものはどれか。",
+    "choices": [
+      "地域の実情に合った政策を行いやすくするため",
+      "すべての地域を同じ方法で強制的に運営するため",
+      "地方議会をなくすため"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地域ごとに人口、産業、防災、福祉などの課題は異なる。地方分権によって、地域の実情に合った政策を行いやすくなる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2117,
+    "subject": "civics",
+    "number": 117,
+    "category": "地方自治",
+    "question": "地方公共団体が行う仕事として適切なものはどれか。",
+    "choices": [
+      "ごみ処理や上下水道、福祉サービス",
+      "外国との条約締結",
+      "最高裁判所裁判官の任命"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方公共団体は、ごみ処理、上下水道、消防、福祉、教育、道路整備など、住民生活に身近な行政サービスを担う。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2118,
+    "subject": "civics",
+    "number": 118,
+    "category": "地方自治",
+    "question": "地方公共団体の財源として適切なものはどれか。",
+    "choices": [
+      "地方税",
+      "交戦権",
+      "議院内閣制"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地方公共団体の財源には、住民税や固定資産税などの地方税、地方交付税交付金、国庫支出金、地方債などがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2119,
+    "subject": "civics",
+    "number": 119,
+    "category": "地方自治",
+    "question": "地方公共団体どうしの財政力の差を調整するため、国から配分されるお金はどれか。",
+    "choices": [
+      "地方交付税交付金",
+      "消費税",
+      "関税自主権"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地方交付税交付金は、地方公共団体間の財政力の差を調整し、どの地域でも一定の行政サービスを行えるように国から配分されるお金である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2120,
+    "subject": "civics",
+    "number": 120,
+    "category": "地方自治",
+    "question": "国が使い道を指定して地方公共団体に支出するお金はどれか。",
+    "choices": [
+      "国庫支出金",
+      "地方税",
+      "罰金"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "国庫支出金は、国が使い道を指定して地方公共団体に支出するお金である。教育、福祉、公共事業などに使われる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2121,
+    "subject": "civics",
+    "number": 121,
+    "category": "地方自治",
+    "question": "地方公共団体が不足する財源を補うために発行する借金はどれか。",
+    "choices": [
+      "地方債",
+      "国債だけ",
+      "株式"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地方債は、地方公共団体が財源不足を補うために発行する借金である。将来の返済負担も考える必要がある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2122,
+    "subject": "civics",
+    "number": 122,
+    "category": "地方自治",
+    "question": "少子高齢化が地方自治に与える影響として適切なものはどれか。",
+    "choices": [
+      "福祉や医療の需要が増え、財政負担が大きくなる",
+      "高齢者向けサービスがまったく不要になる",
+      "地方の人口が必ず増え続ける"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢化が進むと、医療・介護・福祉の需要が増え、地方公共団体の財政負担が大きくなる。一方で人口減少による税収減も課題となる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2123,
+    "subject": "civics",
+    "number": 123,
+    "category": "地方自治",
+    "question": "地方自治で住民参加が重要な理由として適切なものはどれか。",
+    "choices": [
+      "地域の課題を住民自身が考え、解決に関わるため",
+      "住民が政治から完全に離れるため",
+      "首長が住民の意見を聞かないようにするため"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地域の課題は住民の生活に直結するため、選挙、住民投票、直接請求、地域活動などを通じた住民参加が重要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2124,
+    "subject": "civics",
+    "number": 124,
+    "category": "地方自治",
+    "question": "地域社会で、行政だけでなく住民やNPOなどが協力して課題解決に取り組むこととして適切なものはどれか。",
+    "choices": [
+      "協働",
+      "鎖国",
+      "検地"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "協働とは、行政、住民、NPO、企業などが役割を分担しながら地域課題の解決に取り組むことである。防災、福祉、環境などで重要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2125,
+    "subject": "civics",
+    "number": 125,
+    "category": "地方自治",
+    "question": "地方自治を学ぶうえで重要な見方として適切なものはどれか。",
+    "choices": [
+      "身近な地域課題と住民参加を結びつけて考えること",
+      "地方自治は国民生活と関係がないと考えること",
+      "条例や予算をすべて裁判所が決めると考えること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方自治では、福祉、防災、環境、人口減少など身近な地域課題を、住民参加や地方公共団体の役割と結びつけて理解することが大切である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2126,
+    "subject": "civics",
+    "number": 126,
+    "category": "経済",
+    "question": "経済の説明として最も適切なものはどれか。",
+    "choices": [
+      "人々が財やサービスを生産・分配・消費する活動",
+      "国会だけで法律をつくる活動",
+      "裁判所が判決を出す活動"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "経済とは、人々が生活に必要な財やサービスを生産し、分配し、消費する活動である。家計・企業・政府が経済の主な主体となる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2127,
+    "subject": "civics",
+    "number": 127,
+    "category": "経済",
+    "question": "家計の役割として最も適切なものはどれか。",
+    "choices": [
+      "消費を行い、労働力を提供する",
+      "法律を制定する",
+      "外交を担当する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "家計は、商品やサービスを消費する一方で、企業などに労働力を提供し、賃金を得る。経済主体の一つとして重要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2128,
+    "subject": "civics",
+    "number": 128,
+    "category": "経済",
+    "question": "企業の役割として最も適切なものはどれか。",
+    "choices": [
+      "商品やサービスを生産・販売する",
+      "裁判だけを行う",
+      "国会議員を選ぶ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "企業は、商品やサービスを生産・販売し、利益を得ようとする経済主体である。雇用を生み出す役割も持つ。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2129,
+    "subject": "civics",
+    "number": 129,
+    "category": "経済",
+    "question": "政府の経済的な役割として適切なものはどれか。",
+    "choices": [
+      "税金を集め、公共サービスを提供する",
+      "すべての商品価格を毎日くじで決める",
+      "企業の利益をすべて禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "政府は税金を集め、教育、福祉、道路、防災などの公共サービスを提供する。また景気の安定や所得の再分配にも関わる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2130,
+    "subject": "civics",
+    "number": 130,
+    "category": "経済",
+    "question": "商品やサービスを売買する場やしくみを何というか。",
+    "choices": [
+      "市場",
+      "条例",
+      "司法"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "市場とは、商品やサービスが売買される場やしくみのことである。実際の店舗だけでなく、インターネット上の取引も市場に含まれる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2131,
+    "subject": "civics",
+    "number": 131,
+    "category": "経済",
+    "question": "市場経済で、価格を決める基本的な要素はどれか。",
+    "choices": [
+      "需要と供給",
+      "裁判官の人数",
+      "憲法の条文数"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "市場経済では、商品を買いたい量である需要と、売りたい量である供給の関係によって価格が決まる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2132,
+    "subject": "civics",
+    "number": 132,
+    "category": "経済",
+    "question": "需要の説明として最も適切なものはどれか。",
+    "choices": [
+      "消費者が商品を買おうとする量",
+      "企業が商品を売ろうとする量",
+      "政府が法律を公布する量"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "需要とは、消費者がある価格で商品やサービスを買おうとする量である。価格が下がると需要が増えることが多い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2133,
+    "subject": "civics",
+    "number": 133,
+    "category": "経済",
+    "question": "供給の説明として最も適切なものはどれか。",
+    "choices": [
+      "企業などが商品を売ろうとする量",
+      "消費者が商品を買おうとする量",
+      "有権者が投票する量"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "供給とは、企業などがある価格で商品やサービスを売ろうとする量である。価格が上がると供給が増えることが多い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2134,
+    "subject": "civics",
+    "number": 134,
+    "category": "経済",
+    "question": "需要が供給を上回ったとき、一般に価格はどうなりやすいか。",
+    "choices": [
+      "上がりやすい",
+      "必ずゼロになる",
+      "変化してはいけない"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "需要が供給を上回ると、商品を買いたい人が多く、商品が不足しやすいため、価格は上がりやすい。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2135,
+    "subject": "civics",
+    "number": 135,
+    "category": "経済",
+    "question": "供給が需要を上回ったとき、一般に価格はどうなりやすいか。",
+    "choices": [
+      "下がりやすい",
+      "必ず無限に上がる",
+      "政治家だけが買えるようになる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "供給が需要を上回ると、商品が余りやすくなるため、価格は下がりやすい。需要と供給の関係は価格の動きを考える基本である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2136,
+    "subject": "civics",
+    "number": 136,
+    "category": "経済",
+    "question": "需要量と供給量が一致する価格を何というか。",
+    "choices": [
+      "均衡価格",
+      "地価",
+      "税率"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "均衡価格とは、需要量と供給量が一致する価格である。この価格では、売りたい量と買いたい量がつり合う。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2137,
+    "subject": "civics",
+    "number": 137,
+    "category": "経済",
+    "question": "市場経済の長所として適切なものはどれか。",
+    "choices": [
+      "競争により商品やサービスの改善が進みやすい",
+      "すべての商品が必ず無料になる",
+      "消費者が商品を選べなくなる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "市場経済では、企業どうしの競争によって価格や品質、サービスが改善されやすい。一方で格差や環境問題などの課題もある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2138,
+    "subject": "civics",
+    "number": 138,
+    "category": "経済",
+    "question": "市場経済で、企業どうしが価格や品質で競い合うことを何というか。",
+    "choices": [
+      "競争",
+      "参勤交代",
+      "違憲審査"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "競争は、企業が消費者に選ばれるために価格、品質、サービスなどで競い合うことである。市場経済を動かす重要なしくみである。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2139,
+    "subject": "civics",
+    "number": 139,
+    "category": "経済",
+    "question": "少数の企業が市場を支配し、自由な競争が弱まる状態を何というか。",
+    "choices": [
+      "独占・寡占",
+      "普通選挙",
+      "三権分立"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "独占は一つの企業が市場を支配する状態、寡占は少数の企業が市場を支配する状態である。競争が弱まり、価格が下がりにくくなることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2140,
+    "subject": "civics",
+    "number": 140,
+    "category": "経済",
+    "question": "独占・寡占によって起こりやすい問題として適切なものはどれか。",
+    "choices": [
+      "価格が高止まりし、消費者の利益が損なわれること",
+      "すべての商品が無料になること",
+      "企業が一切利益を得られなくなること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "独占・寡占が進むと、競争が弱まり、価格が高止まりしたり、消費者が不利益を受けたりすることがある。そのため公正な競争を守るしくみが必要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2141,
+    "subject": "civics",
+    "number": 141,
+    "category": "経済",
+    "question": "自由で公正な競争を守るために定められている法律はどれか。",
+    "choices": [
+      "独占禁止法",
+      "武家諸法度",
+      "地租改正条例"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "独占禁止法は、企業の独占や不公正な取引を防ぎ、自由で公正な競争を守るための法律である。公正取引委員会と関係が深い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2142,
+    "subject": "civics",
+    "number": 142,
+    "category": "経済",
+    "question": "独占禁止法を運用し、公正な競争を守る機関はどれか。",
+    "choices": [
+      "公正取引委員会",
+      "最高裁判所だけ",
+      "国際連合"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "公正取引委員会は、独占禁止法にもとづいて、企業の不公正な取引や独占を監視する機関である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2143,
+    "subject": "civics",
+    "number": 143,
+    "category": "経済",
+    "question": "株式会社の説明として最も適切なものはどれか。",
+    "choices": [
+      "株式を発行して資金を集める会社",
+      "税金だけで運営される地方公共団体",
+      "国会議員だけが作れる団体"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "株式会社は、株式を発行して多くの人から資金を集める会社である。集めた資金を使って事業を行い、利益をめざす。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2144,
+    "subject": "civics",
+    "number": 144,
+    "category": "経済",
+    "question": "株式会社が発行し、会社への出資を示すものはどれか。",
+    "choices": [
+      "株式",
+      "条例",
+      "国債だけ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "株式は、株式会社への出資を示すものである。株式を持つ人を株主という。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2145,
+    "subject": "civics",
+    "number": 145,
+    "category": "経済",
+    "question": "株式を持ち、会社に出資している人を何というか。",
+    "choices": [
+      "株主",
+      "首長",
+      "裁判官"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "株主は、会社の株式を持つ人である。株主は会社の利益に応じて配当を受け取ることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2146,
+    "subject": "civics",
+    "number": 146,
+    "category": "経済",
+    "question": "株式会社で、株主が会社の重要な方針を決めるために参加する会議はどれか。",
+    "choices": [
+      "株主総会",
+      "国会",
+      "地方議会"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "株主総会は、株主が会社の重要な方針や役員の選任などを決める会議である。株式会社のしくみとして重要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2147,
+    "subject": "civics",
+    "number": 147,
+    "category": "経済",
+    "question": "企業が利益を得るためだけでなく、社会や環境にも配慮する責任を何というか。",
+    "choices": [
+      "企業の社会的責任",
+      "参政権",
+      "領事裁判権"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "企業の社会的責任はCSRとも呼ばれ、企業が利益だけでなく、人権、環境、地域社会、法令遵守などにも配慮する責任を指す。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2148,
+    "subject": "civics",
+    "number": 148,
+    "category": "経済",
+    "question": "消費者の説明として最も適切なものはどれか。",
+    "choices": [
+      "商品やサービスを購入して利用する人",
+      "法律を制定する国会議員だけ",
+      "企業の商品を必ず作る人だけ"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "消費者とは、商品やサービスを購入し、利用する人である。私たちの多くは日常生活の中で消費者として行動している。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2149,
+    "subject": "civics",
+    "number": 149,
+    "category": "経済",
+    "question": "消費者問題として適切なものはどれか。",
+    "choices": [
+      "悪質商法や欠陥商品による被害",
+      "選挙で投票すること",
+      "条例を制定すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "消費者問題には、悪質商法、欠陥商品、食品表示の問題、個人情報の悪用などがある。消費者を守る制度が必要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2150,
+    "subject": "civics",
+    "number": 150,
+    "category": "経済",
+    "question": "消費者が商品やサービスについて正しい情報を得て、自分で選ぶ権利はどれか。",
+    "choices": [
+      "選択する権利",
+      "交戦権",
+      "解散権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者には、安全を求める権利、知らされる権利、選択する権利、意見を反映させる権利などがある。適切な情報をもとに選ぶことが大切である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2151,
+    "subject": "civics",
+    "number": 151,
+    "category": "経済",
+    "question": "消費者を守るために、商品やサービスの安全・表示などに関する制度が必要な理由として適切なものはどれか。",
+    "choices": [
+      "消費者は企業より情報が少なく、不利益を受けることがあるから",
+      "消費者がすべての商品を作っているから",
+      "企業活動をすべて禁止するため"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者は商品やサービスについて企業より情報が少ないことが多く、悪質商法や欠陥商品で被害を受けることがある。そのため消費者保護の制度が必要である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2152,
+    "subject": "civics",
+    "number": 152,
+    "category": "経済",
+    "question": "消費者契約法の目的として適切なものはどれか。",
+    "choices": [
+      "不当な勧誘などによる契約被害から消費者を守ること",
+      "すべての選挙を管理すること",
+      "裁判所の判決をつくること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者契約法は、不当な勧誘や誤った説明などによって結ばれた契約から消費者を守るための法律である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2153,
+    "subject": "civics",
+    "number": 153,
+    "category": "経済",
+    "question": "製品の欠陥によって消費者が被害を受けた場合、企業の責任を定めた法律はどれか。",
+    "choices": [
+      "製造物責任法",
+      "公職選挙法",
+      "地方自治法"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "製造物責任法はPL法とも呼ばれ、製品の欠陥によって被害が出た場合の企業の責任を定めている。消費者保護の重要な法律である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2154,
+    "subject": "civics",
+    "number": 154,
+    "category": "経済",
+    "question": "クーリング・オフ制度の説明として最も適切なものはどれか。",
+    "choices": [
+      "一定期間内なら消費者が契約を解除できる制度",
+      "税金を一切払わなくてよい制度",
+      "選挙の投票をやり直す制度"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "クーリング・オフは、訪問販売などで契約した場合に、一定期間内であれば消費者が無条件で契約を解除できる制度である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2155,
+    "subject": "civics",
+    "number": 155,
+    "category": "経済",
+    "question": "消費生活センターの役割として適切なものはどれか。",
+    "choices": [
+      "消費者からの相談を受け、解決を支援する",
+      "国会議員を任命する",
+      "外国との条約を結ぶ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費生活センターは、悪質商法や契約トラブルなど、消費生活に関する相談を受け、助言や解決支援を行う機関である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2156,
+    "subject": "civics",
+    "number": 156,
+    "category": "経済",
+    "question": "金融の説明として最も適切なものはどれか。",
+    "choices": [
+      "お金を必要とする人や企業に、資金がまわるしくみ",
+      "裁判所が判決を出すしくみ",
+      "地方議会が条例をつくるしくみ"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "金融とは、家計や企業などの間で資金を貸し借りしたり、必要なところへ資金をまわしたりするしくみである。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2157,
+    "subject": "civics",
+    "number": 157,
+    "category": "経済",
+    "question": "銀行の主な役割として適切なものはどれか。",
+    "choices": [
+      "預金を集め、企業や個人に貸し出すこと",
+      "法律を制定すること",
+      "裁判を行うこと"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "銀行は、人々や企業から預金を集め、それを企業や個人に貸し出す。金融機関として、経済活動を支える役割を持つ。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2158,
+    "subject": "civics",
+    "number": 158,
+    "category": "経済",
+    "question": "中央銀行として、日本のお金や金融政策に関わる機関はどれか。",
+    "choices": [
+      "日本銀行",
+      "最高裁判所",
+      "国際連合"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本銀行は日本の中央銀行であり、紙幣の発行、金融政策、銀行の銀行、政府の銀行としての役割を持つ。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2159,
+    "subject": "civics",
+    "number": 159,
+    "category": "経済",
+    "question": "日本銀行が持つ役割として適切なものはどれか。",
+    "choices": [
+      "紙幣を発行する",
+      "条例を制定する",
+      "衆議院を解散する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本銀行は、日本銀行券、つまり紙幣を発行する役割を持つ。硬貨は政府が発行する点と区別する。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2160,
+    "subject": "civics",
+    "number": 160,
+    "category": "経済",
+    "question": "景気が悪いときに、政府や日本銀行がとる政策として考えられるものはどれか。",
+    "choices": [
+      "公共事業を増やしたり、金利を下げたりする",
+      "需要をさらに減らすためにすべての支出を止める",
+      "すべての企業活動を禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "景気が悪いときは、政府が公共事業を増やしたり、日本銀行が金利を下げたりして、消費や投資を促そうとすることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2161,
+    "subject": "civics",
+    "number": 161,
+    "category": "経済",
+    "question": "労働者と使用者の関係について定めた基本的な法律はどれか。",
+    "choices": [
+      "労働基準法",
+      "武家諸法度",
+      "公職選挙法"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "労働基準法は、労働時間、賃金、休日など、労働条件の最低基準を定めた法律である。労働者を守る基本的な法律である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2162,
+    "subject": "civics",
+    "number": 162,
+    "category": "経済",
+    "question": "労働者が団結して労働条件の改善を求めるためにつくる組織はどれか。",
+    "choices": [
+      "労働組合",
+      "地方議会",
+      "国際連合"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "労働組合は、労働者が団結して賃金や労働時間などの労働条件の改善を求めるためにつくる組織である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2163,
+    "subject": "civics",
+    "number": 163,
+    "category": "経済",
+    "question": "労働三権として正しい組み合わせはどれか。",
+    "choices": [
+      "団結権・団体交渉権・団体行動権",
+      "選挙権・被選挙権・請願権",
+      "生存権・教育権・環境権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "労働三権は、労働者が労働条件を改善するための権利であり、団結権・団体交渉権・団体行動権の三つである。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2164,
+    "subject": "civics",
+    "number": 164,
+    "category": "経済",
+    "question": "非正規雇用の例として適切なものはどれか。",
+    "choices": [
+      "パート・アルバイト・派遣労働者",
+      "最高裁判所裁判官",
+      "国会そのもの"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "非正規雇用には、パート、アルバイト、派遣労働者、契約社員などが含まれる。雇用の安定や待遇格差が課題となることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2165,
+    "subject": "civics",
+    "number": 165,
+    "category": "経済",
+    "question": "働く人々の間で問題となる「ワーク・ライフ・バランス」とは何か。",
+    "choices": [
+      "仕事と生活の調和",
+      "企業が税金を納めないこと",
+      "選挙区の人口差"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "ワーク・ライフ・バランスとは、仕事と家庭生活、地域活動、休養などを調和させる考え方である。働き方改革とも関係が深い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2166,
+    "subject": "civics",
+    "number": 166,
+    "category": "経済",
+    "question": "社会保障制度の目的として最も適切なものはどれか。",
+    "choices": [
+      "病気・老後・失業などに備え、人々の生活を支えること",
+      "企業の競争をすべて禁止すること",
+      "国会議員だけを助けること"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "社会保障制度は、病気、老後、失業、介護、生活困窮などに備え、人々の生活を支える制度である。生存権と関係が深い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2167,
+    "subject": "civics",
+    "number": 167,
+    "category": "経済",
+    "question": "日本の社会保障制度に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "年金・医療保険・介護保険・生活保護",
+      "参勤交代・刀狩・検地",
+      "踏絵・勘合・朱印状"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "社会保障制度には、年金、医療保険、介護保険、雇用保険、生活保護などが含まれる。人々の生活を支える重要なしくみである。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2168,
+    "subject": "civics",
+    "number": 168,
+    "category": "経済",
+    "question": "社会保険に含まれるものとして適切なものはどれか。",
+    "choices": [
+      "医療保険や年金保険",
+      "条例や法律",
+      "選挙や国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "社会保険は、病気、老後、介護、失業などに備えて保険料を出し合う制度で、医療保険、年金保険、介護保険、雇用保険などがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2169,
+    "subject": "civics",
+    "number": 169,
+    "category": "経済",
+    "question": "生活保護制度の目的として適切なものはどれか。",
+    "choices": [
+      "生活に困っている人に最低限度の生活を保障すること",
+      "株式会社の利益を増やすこと",
+      "外国との貿易を止めること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "生活保護は、生活に困っている人に対して、健康で文化的な最低限度の生活を保障し、自立を助ける制度である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2170,
+    "subject": "civics",
+    "number": 170,
+    "category": "経済",
+    "question": "少子高齢化が社会保障に与える影響として適切なものはどれか。",
+    "choices": [
+      "年金・医療・介護の費用が増えやすい",
+      "社会保障がまったく不要になる",
+      "高齢者の数が必ず減り続ける"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢化が進むと、高齢者を支える年金、医療、介護の費用が増えやすくなる。一方で支える側の現役世代が減ることも課題である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2171,
+    "subject": "civics",
+    "number": 171,
+    "category": "経済",
+    "question": "国の収入を何というか。",
+    "choices": [
+      "歳入",
+      "歳出",
+      "需要"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "歳入とは、国や地方公共団体の収入のことである。税金や公債金などが含まれる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2172,
+    "subject": "civics",
+    "number": 172,
+    "category": "経済",
+    "question": "国の支出を何というか。",
+    "choices": [
+      "歳出",
+      "歳入",
+      "供給"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "歳出とは、国や地方公共団体の支出のことである。社会保障、公共事業、教育、防衛などに使われる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2173,
+    "subject": "civics",
+    "number": 173,
+    "category": "経済",
+    "question": "国や地方公共団体が活動するために集めるお金はどれか。",
+    "choices": [
+      "税金",
+      "株式",
+      "死票"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "税金は、国や地方公共団体が公共サービスを行うために集めるお金である。社会保障、教育、防災、道路整備などに使われる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2174,
+    "subject": "civics",
+    "number": 174,
+    "category": "経済",
+    "question": "所得税や法人税のように、税を負担する人と納める人が同じ税を何というか。",
+    "choices": [
+      "直接税",
+      "間接税",
+      "関税自主権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "直接税は、税を負担する人と納める人が同じ税である。所得税、法人税、住民税などが代表例である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2175,
+    "subject": "civics",
+    "number": 175,
+    "category": "経済",
+    "question": "消費税のように、税を負担する人と納める人が異なる税を何というか。",
+    "choices": [
+      "間接税",
+      "直接税",
+      "地方債"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "間接税は、税を負担する人と納める人が異なる税である。消費税は消費者が負担し、事業者が納める代表的な間接税である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2176,
+    "subject": "civics",
+    "number": 176,
+    "category": "経済",
+    "question": "所得が多い人ほど高い税率を適用するしくみはどれか。",
+    "choices": [
+      "累進課税",
+      "比例代表制",
+      "直接請求"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "累進課税は、所得が多い人ほど高い税率を適用するしくみである。所得税に用いられ、所得の再分配と関係が深い。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2177,
+    "subject": "civics",
+    "number": 177,
+    "category": "経済",
+    "question": "政府が税金や社会保障を通じて所得の差を小さくしようとする働きはどれか。",
+    "choices": [
+      "所得の再分配",
+      "三権分立",
+      "地方分権"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "所得の再分配とは、税金や社会保障によって所得格差を調整する働きである。社会保障や累進課税と結びつけて理解する。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2178,
+    "subject": "civics",
+    "number": 178,
+    "category": "経済",
+    "question": "国が不足する財源を補うために発行する借金はどれか。",
+    "choices": [
+      "国債",
+      "株式",
+      "地方税"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国債は、国が財源不足を補うために発行する借金である。発行しすぎると将来世代への負担が大きくなることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2179,
+    "subject": "civics",
+    "number": 179,
+    "category": "経済",
+    "question": "国の財政で、社会保障関係費が増えやすい主な理由はどれか。",
+    "choices": [
+      "少子高齢化が進んでいるから",
+      "選挙権年齢が上がり続けているから",
+      "すべての税金が廃止されたから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢化により、高齢者の年金・医療・介護に関する費用が増えやすい。国の財政を考えるうえで重要な課題である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2180,
+    "subject": "civics",
+    "number": 180,
+    "category": "経済",
+    "question": "景気がよい状態として適切なものはどれか。",
+    "choices": [
+      "生産や消費が活発で、雇用も増えやすい状態",
+      "物がまったく売れない状態",
+      "企業がすべて倒産している状態"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "景気がよいと、生産や消費、投資が活発になり、企業の利益や雇用が増えやすい。一方で物価上昇が起こることもある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2181,
+    "subject": "civics",
+    "number": 181,
+    "category": "経済",
+    "question": "景気が悪い状態として適切なものはどれか。",
+    "choices": [
+      "消費や生産が落ち込み、失業が増えやすい状態",
+      "すべての人の所得が必ず増える状態",
+      "商品が必ず無料になる状態"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "景気が悪いと、消費や生産が落ち込み、企業の業績が悪化し、失業が増えやすくなる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2182,
+    "subject": "civics",
+    "number": 182,
+    "category": "経済",
+    "question": "物価が継続的に上がる現象はどれか。",
+    "choices": [
+      "インフレーション",
+      "デフレーション",
+      "リコール"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "インフレーションは物価が継続的に上がる現象である。お金の価値が下がり、生活費が増えることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2183,
+    "subject": "civics",
+    "number": 183,
+    "category": "経済",
+    "question": "物価が継続的に下がる現象はどれか。",
+    "choices": [
+      "デフレーション",
+      "インフレーション",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "デフレーションは物価が継続的に下がる現象である。消費や投資が減り、景気が悪化することがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2184,
+    "subject": "civics",
+    "number": 184,
+    "category": "経済",
+    "question": "円高になると、日本の輸入品の価格は一般にどうなりやすいか。",
+    "choices": [
+      "安くなりやすい",
+      "必ず高くなる",
+      "輸入が法律で禁止される"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "円高とは円の価値が外国通貨に対して高くなることである。輸入品を比較的安く買いやすくなる一方、輸出企業には不利になることがある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2185,
+    "subject": "civics",
+    "number": 185,
+    "category": "経済",
+    "question": "円安になると、日本の輸出企業には一般にどのような影響が出やすいか。",
+    "choices": [
+      "海外で日本製品が売れやすくなることがある",
+      "輸出が必ず法律で禁止される",
+      "日本円が国内で使えなくなる"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "円安になると、外国から見て日本製品の価格が比較的安くなるため、輸出企業に有利になることがある。一方で輸入品は高くなりやすい。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2186,
+    "subject": "civics",
+    "number": 186,
+    "category": "経済",
+    "question": "国と国との間で商品やサービスを売買することを何というか。",
+    "choices": [
+      "貿易",
+      "条例制定",
+      "住民投票"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "貿易とは、国と国との間で商品やサービスを売買することである。輸出と輸入の両方を含む。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2187,
+    "subject": "civics",
+    "number": 187,
+    "category": "経済",
+    "question": "日本が外国へ商品を売ることを何というか。",
+    "choices": [
+      "輸出",
+      "輸入",
+      "歳出"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "輸出とは、自国の商品やサービスを外国へ売ることである。自動車や機械類などは日本の代表的な輸出品である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2188,
+    "subject": "civics",
+    "number": 188,
+    "category": "経済",
+    "question": "日本が外国から商品を買うことを何というか。",
+    "choices": [
+      "輸入",
+      "輸出",
+      "歳入"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "輸入とは、外国の商品やサービスを自国へ買い入れることである。日本はエネルギー資源や食料の一部を多く輸入している。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2189,
+    "subject": "civics",
+    "number": 189,
+    "category": "経済",
+    "question": "自由貿易の説明として最も適切なものはどれか。",
+    "choices": [
+      "関税などの制限を少なくして貿易を行う考え方",
+      "外国との取引をすべて禁止する考え方",
+      "国内の商品をすべて無料にする制度"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "自由貿易は、関税や数量制限などを少なくし、国際的な取引を活発にしようとする考え方である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2190,
+    "subject": "civics",
+    "number": 190,
+    "category": "経済",
+    "question": "国内産業を守るために、外国からの輸入品に税をかけることがある。この税を何というか。",
+    "choices": [
+      "関税",
+      "所得税",
+      "住民税"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "関税は、外国からの輸入品にかけられる税である。国内産業の保護や財源確保などの目的で使われる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2191,
+    "subject": "civics",
+    "number": 191,
+    "category": "国際",
+    "question": "世界の貿易ルールづくりを進める国際機関はどれか。",
+    "choices": [
+      "WTO",
+      "PKO",
+      "NPO"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "WTOは世界貿易機関で、自由で公正な貿易を進めるためのルールづくりや紛争解決を行う国際機関である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2192,
+    "subject": "civics",
+    "number": 192,
+    "category": "国際",
+    "question": "複数の国や地域が関税を下げるなどして経済的な結びつきを強める協定はどれか。",
+    "choices": [
+      "EPA・FTA",
+      "PL法",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 3,
+    "frequencyLabel": "★★★☆☆",
+    "explanation": "EPAやFTAは、関税の引き下げや貿易・投資の促進などを通じて、国や地域の経済的な結びつきを強める協定である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2193,
+    "subject": "civics",
+    "number": 193,
+    "category": "国際",
+    "question": "国際連合の主な目的として適切なものはどれか。",
+    "choices": [
+      "国際平和と安全を維持すること",
+      "各国の選挙をすべて直接行うこと",
+      "世界中の地方議会を廃止すること"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国際連合は、第二次世界大戦後に設立された国際機関で、国際平和と安全の維持、国際協力の促進を目的としている。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2194,
+    "subject": "civics",
+    "number": 194,
+    "category": "国際",
+    "question": "国際連合で、国際平和と安全について重要な決定を行う機関はどれか。",
+    "choices": [
+      "安全保障理事会",
+      "株主総会",
+      "地方議会"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "安全保障理事会は、国際平和と安全の維持について重要な役割を持つ国連の機関である。常任理事国と非常任理事国からなる。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2195,
+    "subject": "civics",
+    "number": 195,
+    "category": "国際",
+    "question": "国連安全保障理事会の常任理事国が持つ特別な権限はどれか。",
+    "choices": [
+      "拒否権",
+      "解散権",
+      "リコール権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "常任理事国は、安全保障理事会の重要な決定に対して拒否権を持つ。1か国でも反対すると決定できない場合がある。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2196,
+    "subject": "civics",
+    "number": 196,
+    "category": "国際",
+    "question": "国連の専門機関のうち、子どもの支援と関係が深いものはどれか。",
+    "choices": [
+      "UNICEF",
+      "WTO",
+      "公正取引委員会"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "UNICEFは国連児童基金で、世界の子どもたちの健康、教育、保護などを支援している。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2197,
+    "subject": "civics",
+    "number": 197,
+    "category": "国際",
+    "question": "国連の専門機関のうち、保健・医療と関係が深いものはどれか。",
+    "choices": [
+      "WHO",
+      "IMF",
+      "NPO"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "WHOは世界保健機関で、感染症対策や保健医療の向上などに取り組む国連の専門機関である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2198,
+    "subject": "civics",
+    "number": 198,
+    "category": "国際",
+    "question": "政府ではなく、市民や民間の立場から国際協力や社会活動を行う非政府組織はどれか。",
+    "choices": [
+      "NGO",
+      "GDP",
+      "WTO"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "NGOは非政府組織で、国際協力、人権、環境、災害支援などの分野で活動する民間団体である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2199,
+    "subject": "civics",
+    "number": 199,
+    "category": "国際",
+    "question": "利潤を目的とせず、福祉・環境・まちづくりなど社会的活動を行う民間組織はどれか。",
+    "choices": [
+      "NPO",
+      "GDP",
+      "内閣"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "NPOは非営利組織で、福祉、環境、教育、防災、まちづくりなど、社会的課題の解決に取り組む民間組織である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2200,
+    "subject": "civics",
+    "number": 200,
+    "category": "国際",
+    "question": "公民の経済・国際分野を学ぶうえで重要な見方として適切なものはどれか。",
+    "choices": [
+      "家計・企業・政府・国際社会のつながりを考えること",
+      "用語だけを覚え、生活との関係を見ないこと",
+      "世界との関係をすべて無視すること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "経済や国際社会は、家計、企業、政府、外国との取引、国際機関の働きがつながっている。身近な生活や社会課題と関連づけて理解することが大切である。",
+    "source": "civics_101_200.md"
+  },
+  {
+    "id": 2201,
+    "subject": "civics",
+    "number": 201,
+    "category": "国際",
+    "question": "国際社会で、国と国が互いに協力して問題を解決しようとする考え方はどれか。",
+    "choices": [
+      "国際協調",
+      "鎖国",
+      "独占"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国際協調とは、国どうしが協力して、平和、環境、貧困、人権などの国際問題を解決しようとする考え方である。現代社会では一国だけで解決できない課題が多い。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2202,
+    "subject": "civics",
+    "number": 202,
+    "category": "国際",
+    "question": "国際社会で、国境をこえて人・物・情報・資金の移動が活発になることを何というか。",
+    "choices": [
+      "グローバル化",
+      "地方分権",
+      "議院内閣制"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "グローバル化とは、国境をこえて人、物、情報、資金などの移動が活発になり、世界の結びつきが強まることである。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2203,
+    "subject": "civics",
+    "number": 203,
+    "category": "国際",
+    "question": "グローバル化の進展によって起こりやすいこととして適切なものはどれか。",
+    "choices": [
+      "外国の商品や文化に触れる機会が増える",
+      "外国との関係が完全になくなる",
+      "すべての国の経済が国内だけで完結する"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "グローバル化が進むと、外国の商品や文化、情報に触れる機会が増える。一方で国際競争や文化摩擦などの課題も生じる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2204,
+    "subject": "civics",
+    "number": 204,
+    "category": "環境",
+    "question": "国際社会で、地球全体に関わる環境問題として適切なものはどれか。",
+    "choices": [
+      "地球温暖化",
+      "参勤交代",
+      "大政奉還"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地球温暖化は、温室効果ガスの増加などにより地球全体の平均気温が上がる問題である。国際的な協力が必要な環境問題である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2205,
+    "subject": "civics",
+    "number": 205,
+    "category": "環境",
+    "question": "地球温暖化の主な原因の一つとして適切なものはどれか。",
+    "choices": [
+      "二酸化炭素などの温室効果ガスの増加",
+      "選挙権年齢の引き下げ",
+      "地方議会の解散"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地球温暖化の原因の一つは、石炭・石油・天然ガスなどの化石燃料の利用によって二酸化炭素などの温室効果ガスが増えることである。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2206,
+    "subject": "civics",
+    "number": 206,
+    "category": "環境",
+    "question": "地球温暖化によって起こるおそれがある影響として適切なものはどれか。",
+    "choices": [
+      "海面上昇や異常気象の増加",
+      "税金の完全な廃止",
+      "選挙制度の消滅"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "地球温暖化が進むと、海面上昇、異常気象の増加、生態系への影響、農業への被害などが起こるおそれがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2207,
+    "subject": "civics",
+    "number": 207,
+    "category": "環境",
+    "question": "地球温暖化対策として重要なことはどれか。",
+    "choices": [
+      "二酸化炭素の排出量を減らすこと",
+      "化石燃料の使用を無限に増やすこと",
+      "森林をすべて伐採すること"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地球温暖化対策では、省エネルギー、再生可能エネルギーの利用、森林保全などにより、二酸化炭素などの排出量を減らすことが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2208,
+    "subject": "civics",
+    "number": 208,
+    "category": "環境",
+    "question": "太陽光・風力・水力など、くり返し利用できるエネルギーを何というか。",
+    "choices": [
+      "再生可能エネルギー",
+      "化石燃料",
+      "国債"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "再生可能エネルギーは、太陽光、風力、水力、地熱、バイオマスなど、自然の力を利用してくり返し使えるエネルギーである。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2209,
+    "subject": "civics",
+    "number": 209,
+    "category": "環境",
+    "question": "再生可能エネルギーの利点として適切なものはどれか。",
+    "choices": [
+      "発電時の二酸化炭素排出を抑えやすい",
+      "必ず天候に左右されない",
+      "化石燃料より必ずすべて安い"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "再生可能エネルギーは、発電時の二酸化炭素排出を抑えやすい利点がある。一方で、太陽光や風力は天候に左右されやすいなどの課題もある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2210,
+    "subject": "civics",
+    "number": 210,
+    "category": "環境",
+    "question": "持続可能な社会の説明として最も適切なものはどれか。",
+    "choices": [
+      "将来の世代も安心して暮らせるよう、環境や資源に配慮する社会",
+      "今だけ資源を使い切る社会",
+      "経済活動をすべて禁止する社会"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "持続可能な社会とは、現在の世代だけでなく将来の世代も安心して暮らせるように、環境、資源、経済、社会のバランスを考える社会である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2211,
+    "subject": "civics",
+    "number": 211,
+    "category": "国際",
+    "question": "SDGsの説明として最も適切なものはどれか。",
+    "choices": [
+      "持続可能な開発目標",
+      "日本だけの選挙制度",
+      "企業の株式発行制度"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "SDGsは「持続可能な開発目標」のことで、貧困、教育、環境、平和など、2030年までに達成をめざす国際目標である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2212,
+    "subject": "civics",
+    "number": 212,
+    "category": "国際",
+    "question": "SDGsがめざす内容として適切なものはどれか。",
+    "choices": [
+      "貧困や環境問題など地球規模の課題解決",
+      "すべての国の選挙を禁止すること",
+      "戦争を増やすこと"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "SDGsは、貧困の解消、教育、ジェンダー平等、気候変動対策、平和など、地球規模の課題を解決することをめざしている。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2213,
+    "subject": "civics",
+    "number": 213,
+    "category": "国際",
+    "question": "「誰一人取り残さない」という考え方と関係が深いものはどれか。",
+    "choices": [
+      "SDGs",
+      "参勤交代",
+      "地租改正"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "SDGsでは「誰一人取り残さない」という理念が重視される。貧困、差別、教育格差などをなくし、すべての人が尊重される社会をめざす。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2214,
+    "subject": "civics",
+    "number": 214,
+    "category": "国際",
+    "question": "発展途上国で課題となりやすいものとして適切なものはどれか。",
+    "choices": [
+      "貧困や教育・医療の不足",
+      "選挙権年齢が必ず18歳であること",
+      "すべての国民が高所得であること"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "発展途上国では、貧困、教育や医療の不足、衛生環境の悪さ、インフラ不足などが課題となることがある。国際協力が必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2215,
+    "subject": "civics",
+    "number": 215,
+    "category": "国際",
+    "question": "政府が発展途上国に対して行う経済協力を何というか。",
+    "choices": [
+      "ODA",
+      "NGO",
+      "CSR"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "ODAは政府開発援助のことで、政府が発展途上国の経済発展や福祉向上を支援するために行う協力である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2216,
+    "subject": "civics",
+    "number": 216,
+    "category": "国際",
+    "question": "ODAの具体例として適切なものはどれか。",
+    "choices": [
+      "学校や道路の整備を支援すること",
+      "国内の選挙で投票すること",
+      "企業の株主総会を開くこと"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "ODAでは、発展途上国の学校、病院、道路、水道などの整備や技術協力、人材育成などを支援することがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2217,
+    "subject": "civics",
+    "number": 217,
+    "category": "国際",
+    "question": "難民の説明として最も適切なものはどれか。",
+    "choices": [
+      "戦争や迫害などにより国を逃れた人々",
+      "選挙に立候補した人々",
+      "株式を持っている人々"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "難民とは、戦争、紛争、迫害などにより、自分の国を離れざるを得なくなった人々である。国際社会による保護や支援が必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2218,
+    "subject": "civics",
+    "number": 218,
+    "category": "国際",
+    "question": "国際社会で人権を守るために重要な考え方として適切なものはどれか。",
+    "choices": [
+      "国籍や民族にかかわらず人間の尊厳を尊重すること",
+      "特定の国の人権だけを認めること",
+      "戦争で相手国の人権をなくすこと"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "人権は国籍、民族、宗教、性別などにかかわらず尊重されるべきものである。国際社会では人権保障が重要な課題となっている。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2219,
+    "subject": "civics",
+    "number": 219,
+    "category": "国際",
+    "question": "世界の平和を守るために、国際社会が取り組むべきこととして適切なものはどれか。",
+    "choices": [
+      "紛争の予防や対話、国際協力を進めること",
+      "軍事力だけで全ての問題を解決すること",
+      "国際機関をすべて廃止すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "世界の平和を守るには、紛争の予防、対話、国際機関を通じた協力、人道支援、貧困や差別の解消などが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2220,
+    "subject": "civics",
+    "number": 220,
+    "category": "国際",
+    "question": "日本の国際貢献として適切なものはどれか。",
+    "choices": [
+      "国際協力や災害支援に参加すること",
+      "外国との交流をすべて禁止すること",
+      "国際機関からすべて脱退すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "日本は、ODA、国際機関への協力、災害支援、医療・教育支援などを通じて国際社会に貢献している。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2221,
+    "subject": "civics",
+    "number": 221,
+    "category": "国際",
+    "question": "国際社会で文化の違いを尊重しながら共に生きる考え方はどれか。",
+    "choices": [
+      "多文化共生",
+      "独占禁止",
+      "財政政策"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "多文化共生とは、国籍や文化、言語などが異なる人々が、互いを尊重しながら共に暮らす考え方である。グローバル化と関係が深い。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2222,
+    "subject": "civics",
+    "number": 222,
+    "category": "国際",
+    "question": "日本国内で多文化共生が重要になっている背景として適切なものはどれか。",
+    "choices": [
+      "外国人住民や外国から来る人が増えているから",
+      "日本が完全に鎖国しているから",
+      "国内に地域差がまったくないから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "グローバル化により、日本でも外国人住民、留学生、観光客、働く人々が増えている。そのため多文化共生の考え方が重要になっている。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2223,
+    "subject": "civics",
+    "number": 223,
+    "category": "現代社会",
+    "question": "人口減少社会で日本が直面する課題として適切なものはどれか。",
+    "choices": [
+      "労働力不足や地域社会の維持",
+      "子どもの数が必ず増え続けること",
+      "高齢者が必ず減り続けること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "人口減少社会では、労働力不足、地域社会の維持、社会保障の負担、空き家の増加などが課題となる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2224,
+    "subject": "civics",
+    "number": 224,
+    "category": "現代社会",
+    "question": "少子高齢社会の説明として最も適切なものはどれか。",
+    "choices": [
+      "子どもの割合が低く、高齢者の割合が高い社会",
+      "子どもだけで構成される社会",
+      "高齢者が一人もいない社会"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢社会とは、出生率が低く子どもの割合が少ない一方で、平均寿命の伸びなどにより高齢者の割合が高い社会である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2225,
+    "subject": "civics",
+    "number": 225,
+    "category": "現代社会",
+    "question": "少子高齢社会への対応として適切なものはどれか。",
+    "choices": [
+      "子育て支援や高齢者福祉、働き方の見直しを進める",
+      "教育や福祉をすべてなくす",
+      "地方自治を完全に廃止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢社会では、子育て支援、高齢者福祉、医療・介護体制、働き方改革、地域の支え合いなどを総合的に考える必要がある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2226,
+    "subject": "civics",
+    "number": 226,
+    "category": "現代社会",
+    "question": "情報化社会の説明として最も適切なものはどれか。",
+    "choices": [
+      "情報通信技術が発達し、情報のやり取りが社会に大きな影響を与える社会",
+      "農業だけで成り立つ社会",
+      "外国との情報交換をすべて禁止する社会"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "情報化社会とは、インターネットやスマートフォンなどの情報通信技術が発達し、情報のやり取りが生活や経済、政治に大きな影響を与える社会である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2227,
+    "subject": "civics",
+    "number": 227,
+    "category": "現代社会",
+    "question": "情報化社会の利点として適切なものはどれか。",
+    "choices": [
+      "必要な情報をすばやく得たり、遠くの人と交流したりできる",
+      "すべての情報が必ず正しいと保証される",
+      "人と人との連絡が完全に不可能になる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "情報化社会では、必要な情報をすばやく得たり、遠くの人と連絡したり、オンラインで学習や買い物をしたりできる。一方で情報の正確さを見極める力も必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2228,
+    "subject": "civics",
+    "number": 228,
+    "category": "現代社会",
+    "question": "インターネット上の情報を利用するときに重要な姿勢として適切なものはどれか。",
+    "choices": [
+      "発信元や根拠を確認し、複数の情報を比べる",
+      "見た情報をすべて無条件に信じる",
+      "都合のよい情報だけを事実と決めつける"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "インターネット上には正しい情報も誤った情報もある。発信元、根拠、更新日、複数の情報との比較を行うことが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2229,
+    "subject": "civics",
+    "number": 229,
+    "category": "現代社会",
+    "question": "SNSを利用するときに注意すべきこととして適切なものはどれか。",
+    "choices": [
+      "個人情報や他人を傷つける内容を安易に投稿しない",
+      "友人の個人情報を自由に公開してよい",
+      "匿名なら何を書いても責任はない"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "SNSでは、個人情報の流出、誹謗中傷、デマの拡散などが問題になる。匿名でも責任が問われることがあり、相手の人権を尊重する必要がある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2230,
+    "subject": "civics",
+    "number": 230,
+    "category": "現代社会",
+    "question": "情報を正しく読み取り、活用し、発信する力を何というか。",
+    "choices": [
+      "情報リテラシー",
+      "累進課税",
+      "直接請求権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "情報リテラシーとは、情報を適切に読み取り、判断し、活用し、発信する力である。情報化社会では特に重要な力である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2231,
+    "subject": "civics",
+    "number": 231,
+    "category": "現代社会",
+    "question": "インターネット上で、事実と異なる情報が広がる問題はどれか。",
+    "choices": [
+      "デマやフェイクニュース",
+      "地方交付税交付金",
+      "衆議院の優越"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "デマやフェイクニュースは、事実と異なる情報や誤解を招く情報が広がる問題である。社会不安や差別、誤った判断につながることがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2232,
+    "subject": "civics",
+    "number": 232,
+    "category": "現代社会",
+    "question": "個人情報保護が重要な理由として適切なものはどれか。",
+    "choices": [
+      "個人情報が悪用されると、プライバシーや安全が損なわれるから",
+      "個人情報は必ず全世界に公開すべきだから",
+      "個人情報は社会とまったく関係がないから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "住所、電話番号、顔写真、位置情報などの個人情報が悪用されると、詐欺やなりすまし、プライバシー侵害につながるおそれがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2233,
+    "subject": "civics",
+    "number": 233,
+    "category": "現代社会",
+    "question": "AIなどの新しい技術を社会で活用するときに必要な考え方として適切なものはどれか。",
+    "choices": [
+      "利便性だけでなく、人権や安全、公平性にも配慮する",
+      "便利ならどのような使い方でも許される",
+      "人間の判断をすべて禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "AIなどの技術は生活を便利にする一方、個人情報、差別的な判断、責任の所在などの課題もある。技術と人権・安全を結びつけて考えることが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2234,
+    "subject": "civics",
+    "number": 234,
+    "category": "現代社会",
+    "question": "災害に備えて被害をできるだけ小さくする取り組みはどれか。",
+    "choices": [
+      "防災",
+      "独占",
+      "インフレーション"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "防災とは、地震、津波、台風、大雨などの災害に備え、被害をできるだけ小さくする取り組みである。地域社会の重要な課題である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2235,
+    "subject": "civics",
+    "number": 235,
+    "category": "現代社会",
+    "question": "災害が起こった後、被害を受けた地域を元の生活に近づける取り組みはどれか。",
+    "choices": [
+      "復興",
+      "選挙",
+      "関税"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "復興とは、災害で被害を受けた地域の生活、産業、インフラ、地域社会を立て直していく取り組みである。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2236,
+    "subject": "civics",
+    "number": 236,
+    "category": "現代社会",
+    "question": "災害時に地域の人々が助け合うことが重要な理由として適切なものはどれか。",
+    "choices": [
+      "行政の支援が届くまで、近くの人どうしの助け合いが命を守ることがあるから",
+      "災害時は誰も助け合ってはいけないから",
+      "災害は必ず一人だけで解決できるから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "大きな災害では、行政や消防の支援がすぐに届かないことがある。自助・共助・公助を組み合わせ、地域で助け合うことが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2237,
+    "subject": "civics",
+    "number": 237,
+    "category": "現代社会",
+    "question": "災害への備えで、自分や家族で行う取り組みを何というか。",
+    "choices": [
+      "自助",
+      "公助",
+      "交戦権"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "自助とは、自分や家族で災害に備える取り組みである。非常用品の準備、避難場所の確認、家具の固定などが含まれる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2238,
+    "subject": "civics",
+    "number": 238,
+    "category": "現代社会",
+    "question": "災害への備えで、地域の人々が協力して助け合う取り組みを何というか。",
+    "choices": [
+      "共助",
+      "国債",
+      "世論"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "共助とは、地域の人々や自治会、NPOなどが協力して助け合う取り組みである。避難支援や安否確認などで重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2239,
+    "subject": "civics",
+    "number": 239,
+    "category": "現代社会",
+    "question": "災害への備えで、国や地方公共団体が行う支援を何というか。",
+    "choices": [
+      "公助",
+      "需要",
+      "株式"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "公助とは、国や地方公共団体、消防、警察、自衛隊などが行う支援である。避難所の開設、救助、復旧工事などが含まれる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2240,
+    "subject": "civics",
+    "number": 240,
+    "category": "環境",
+    "question": "環境問題を解決するために、私たちの生活でできる行動として適切なものはどれか。",
+    "choices": [
+      "節電やごみの分別、再利用を心がける",
+      "資源を無駄に使い続ける",
+      "ごみをすべて道路に捨てる"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "環境問題の解決には、国や企業の取り組みだけでなく、節電、ごみの分別、再利用、食品ロスの削減など、私たちの日常生活での行動も大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2241,
+    "subject": "civics",
+    "number": 241,
+    "category": "環境",
+    "question": "ごみを減らすための3Rとして正しい組み合わせはどれか。",
+    "choices": [
+      "リデュース・リユース・リサイクル",
+      "リコール・リスク・リース",
+      "立法・行政・司法"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "3Rは、リデュース、リユース、リサイクルのことである。ごみを減らし、資源を有効に使うための考え方である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2242,
+    "subject": "civics",
+    "number": 242,
+    "category": "環境",
+    "question": "3Rのうち、ごみになるものを減らすことを何というか。",
+    "choices": [
+      "リデュース",
+      "リユース",
+      "リサイクル"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "リデュースは、ごみの発生を減らすことである。必要以上に買わない、使い捨てを減らすなどが例である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2243,
+    "subject": "civics",
+    "number": 243,
+    "category": "環境",
+    "question": "3Rのうち、使えるものをくり返し使うことを何というか。",
+    "choices": [
+      "リユース",
+      "リデュース",
+      "リサイクル"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "リユースは、まだ使えるものをくり返し使うことである。詰め替え容器を使う、古着を再利用するなどが例である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2244,
+    "subject": "civics",
+    "number": 244,
+    "category": "環境",
+    "question": "3Rのうち、資源として再び利用することを何というか。",
+    "choices": [
+      "リサイクル",
+      "リデュース",
+      "リコール"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "リサイクルは、使い終わったものを資源として再び利用することである。紙、ペットボトル、金属などの再資源化が例である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2245,
+    "subject": "civics",
+    "number": 245,
+    "category": "環境",
+    "question": "食品ロスの説明として最も適切なものはどれか。",
+    "choices": [
+      "まだ食べられる食品が捨てられること",
+      "食料をすべて輸入すること",
+      "農業をすべて禁止すること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "食品ロスとは、まだ食べられるのに捨てられてしまう食品のことである。資源の無駄や環境負荷、食料問題と関係する。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2246,
+    "subject": "civics",
+    "number": 246,
+    "category": "現代社会",
+    "question": "持続可能な地域づくりで重要な考え方として適切なものはどれか。",
+    "choices": [
+      "環境・経済・福祉などをバランスよく考える",
+      "経済だけを優先し、環境や福祉を無視する",
+      "地域住民の参加をすべて禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "持続可能な地域づくりでは、環境保全、地域経済、防災、福祉、子育て、交通などを総合的に考え、住民参加を進めることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2247,
+    "subject": "civics",
+    "number": 247,
+    "category": "現代社会",
+    "question": "地域の人口減少への対応として適切なものはどれか。",
+    "choices": [
+      "子育て支援や移住促進、地域産業の活性化を進める",
+      "地域の学校や交通をすべてなくす",
+      "住民参加を完全に禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "人口減少に対応するには、子育て支援、移住・定住の促進、地域産業の活性化、公共交通の維持、住民参加などを組み合わせて考える必要がある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2248,
+    "subject": "civics",
+    "number": 248,
+    "category": "現代社会",
+    "question": "高齢者が地域で安心して暮らすために重要な取り組みとして適切なものはどれか。",
+    "choices": [
+      "医療・介護・見守り・移動支援を充実させる",
+      "高齢者への支援をすべてなくす",
+      "地域の助け合いを禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "高齢者が地域で安心して暮らすためには、医療、介護、見守り、買い物や移動の支援、地域のつながりなどが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2249,
+    "subject": "civics",
+    "number": 249,
+    "category": "現代社会",
+    "question": "現代社会の課題を考えるときに重要な姿勢として適切なものはどれか。",
+    "choices": [
+      "複数の立場や将来への影響を考えて判断する",
+      "自分に関係ない問題はすべて無視する",
+      "一つの面だけを見てすぐに結論を出す"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "現代社会の課題は、環境、経済、人権、地域、国際関係などが複雑に関わる。複数の立場や将来世代への影響を考えて判断することが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2250,
+    "subject": "civics",
+    "number": 250,
+    "category": "現代社会",
+    "question": "公民分野の現代社会問題を学ぶうえで重要な見方として適切なものはどれか。",
+    "choices": [
+      "身近な生活と社会全体・国際社会のつながりを考えること",
+      "用語だけを暗記し、生活との関係を考えないこと",
+      "国内の問題と世界の問題は完全に無関係だと考えること"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "現代社会の問題は、私たちの生活、地域社会、国の政策、国際社会がつながっている。身近な事例から社会全体へ広げて考えることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2251,
+    "subject": "civics",
+    "number": 251,
+    "category": "憲法",
+    "question": "日本国憲法の基本原理を、現代社会の課題と結びつけて考えるときに重要なものはどれか。",
+    "choices": [
+      "人権・平和・民主主義の視点",
+      "武士の身分と年貢の視点",
+      "鎖国と参勤交代の視点"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公民では、日本国憲法の三大原理である国民主権、基本的人権の尊重、平和主義を、現代社会の課題と結びつけて考える力が重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2252,
+    "subject": "civics",
+    "number": 252,
+    "category": "人権",
+    "question": "人権を考えるときに最も大切な考え方として適切なものはどれか。",
+    "choices": [
+      "自分の権利と他人の権利の両方を尊重する",
+      "自分の権利だけを主張すればよい",
+      "多数派の人権だけを守ればよい"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "人権はすべての人に認められる権利である。自分の権利だけでなく、他人の権利や公共の福祉との関係を考えることが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2253,
+    "subject": "civics",
+    "number": 253,
+    "category": "人権",
+    "question": "表現の自由とSNS利用の関係について正しいものはどれか。",
+    "choices": [
+      "表現の自由は大切だが、他人の名誉やプライバシーを侵害してよいわけではない",
+      "表現の自由があるので、どんな投稿をしても責任はない",
+      "SNSでは法律や人権を考えなくてよい"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "表現の自由は民主主義を支える重要な権利である。しかし、他人を傷つける投稿や個人情報の無断公開は、人権侵害や法的責任につながることがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2254,
+    "subject": "civics",
+    "number": 254,
+    "category": "人権",
+    "question": "公共の福祉の具体例として適切なものはどれか。",
+    "choices": [
+      "他人の権利を侵害しないように自由の使い方を調整する",
+      "政府が自由にすべての人権をなくす",
+      "多数派の意見なら少数派の権利を無視してよい"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "公共の福祉は、人権どうしが衝突しないように調整する考え方である。人権を制限する場合も、必要で合理的な範囲でなければならない。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2255,
+    "subject": "civics",
+    "number": 255,
+    "category": "政治",
+    "question": "選挙で投票することの意義として最も適切なものはどれか。",
+    "choices": [
+      "国民が政治に意思を反映させる方法である",
+      "裁判官が法律を作る方法である",
+      "政府が国民の意見を聞かないための方法である"
+    ],
+    "answer": 0,
+    "difficulty": 1,
+    "difficultyLabel": "★ 基礎",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "選挙は、国民が代表者を選び、政治に意思を反映させる重要な制度である。国民主権を実現する基本的なしくみである。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2256,
+    "subject": "civics",
+    "number": 256,
+    "category": "政治",
+    "question": "投票率が低下した場合に起こりうる問題として適切なものはどれか。",
+    "choices": [
+      "一部の人々の意見だけが政治に反映されやすくなる",
+      "すべての国民の意見が必ず平等に反映される",
+      "選挙制度が自動的になくなる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "投票率が低いと、投票した一部の人々の意見が政治に強く反映されやすくなる。多くの人が政治に参加することが民主主義には重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2257,
+    "subject": "civics",
+    "number": 257,
+    "category": "政治",
+    "question": "マスメディアやインターネットの情報を政治判断に使うとき、最も適切な行動はどれか。",
+    "choices": [
+      "情報源や根拠を確認し、複数の情報を比べる",
+      "自分の考えに合う情報だけを信じる",
+      "拡散されている情報は必ず正しいと考える"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "政治判断では、情報をうのみにせず、情報源や根拠を確認し、複数の情報を比較することが大切である。情報リテラシーは公民の重要な力である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2258,
+    "subject": "civics",
+    "number": 258,
+    "category": "政治",
+    "question": "三権分立が必要な理由として最も適切なものはどれか。",
+    "choices": [
+      "権力の集中を防ぎ、国民の権利を守るため",
+      "国会がすべての権力を独占するため",
+      "裁判所が税金を集めるため"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "三権分立は、立法・行政・司法を分け、互いに抑制し合うしくみである。権力の集中を防ぎ、国民の権利や自由を守る役割がある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2259,
+    "subject": "civics",
+    "number": 259,
+    "category": "政治",
+    "question": "内閣が国会に対して責任を負うしくみはどれか。",
+    "choices": [
+      "議院内閣制",
+      "直接民主制",
+      "国民審査"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "議院内閣制では、内閣は国会の信任にもとづいて成立し、国会に対して連帯して責任を負う。衆議院の内閣不信任決議とも関係が深い。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2260,
+    "subject": "civics",
+    "number": 260,
+    "category": "政治",
+    "question": "裁判所が違憲審査権を持つ理由として適切なものはどれか。",
+    "choices": [
+      "法律や命令が憲法に反していないかを判断するため",
+      "国会議員を直接選ぶため",
+      "条例をすべて作るため"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "違憲審査権は、法律や命令などが憲法に違反していないかを裁判所が判断する権限である。憲法を最高法規として守るために重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2261,
+    "subject": "civics",
+    "number": 261,
+    "category": "地方自治",
+    "question": "地方自治が住民にとって重要な理由として適切なものはどれか。",
+    "choices": [
+      "福祉・防災・環境など身近な課題に住民の意思を反映できるから",
+      "外交や防衛をすべて市町村が行うから",
+      "地方では選挙が行われないから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地方自治では、福祉、防災、教育、環境、ごみ処理など住民生活に近い課題を扱う。住民参加によって地域に合った政策を進めやすくなる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2262,
+    "subject": "civics",
+    "number": 262,
+    "category": "地方自治",
+    "question": "住民参加の例として適切なものはどれか。",
+    "choices": [
+      "住民投票や直接請求を通じて地域の政治に関わる",
+      "国際条約を一人で結ぶ",
+      "最高裁判所裁判官を任命する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "住民は、地方選挙、住民投票、直接請求、地域活動などを通じて地方自治に参加できる。地域課題の解決には住民参加が重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2263,
+    "subject": "civics",
+    "number": 263,
+    "category": "経済",
+    "question": "市場経済で、消費者が商品を選ぶときに重要な視点として適切なものはどれか。",
+    "choices": [
+      "価格だけでなく、安全性・品質・環境への影響も考える",
+      "安ければ安全性や表示は見なくてよい",
+      "企業広告だけを必ず信じる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者は、価格だけでなく、安全性、品質、表示、環境への影響、企業の社会的責任なども考えて商品を選ぶことが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2264,
+    "subject": "civics",
+    "number": 264,
+    "category": "経済",
+    "question": "消費者保護の制度が必要な理由として適切なものはどれか。",
+    "choices": [
+      "消費者と企業の間には情報量や交渉力の差があるから",
+      "消費者が常に企業より強い立場にあるから",
+      "企業活動を完全になくすため"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者は商品や契約の専門的な情報を十分に持たないことがある。そのため、悪質商法や欠陥商品から消費者を守る制度が必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2265,
+    "subject": "civics",
+    "number": 265,
+    "category": "経済",
+    "question": "少子高齢化が財政に与える影響として適切なものはどれか。",
+    "choices": [
+      "社会保障費が増え、財政負担が大きくなりやすい",
+      "税金や社会保障がすべて不要になる",
+      "高齢者向けの医療や介護が不要になる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "少子高齢化が進むと、年金、医療、介護などの社会保障費が増えやすい。一方で支える現役世代の減少も課題となる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2266,
+    "subject": "civics",
+    "number": 266,
+    "category": "経済",
+    "question": "税金の使い道を考えるときに重要な視点として適切なものはどれか。",
+    "choices": [
+      "限られた財源をどの政策に優先して使うか考えること",
+      "税金は使い道を考えなくてよい",
+      "すべての公共サービスを無料で無限に増やせる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "財源には限りがあるため、社会保障、教育、防災、公共事業などのどこに重点を置くかを考える必要がある。財政は選択と負担の問題でもある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2267,
+    "subject": "civics",
+    "number": 267,
+    "category": "経済",
+    "question": "景気が悪化したとき、失業を減らすために政府が行う政策として考えられるものはどれか。",
+    "choices": [
+      "公共事業や雇用対策を行う",
+      "すべての企業活動を禁止する",
+      "労働者の権利をすべてなくす"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "景気が悪化すると失業が増えやすい。政府は公共事業、雇用支援、社会保障などを通じて経済や生活を支えることがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2268,
+    "subject": "civics",
+    "number": 268,
+    "category": "経済",
+    "question": "円高が消費者に与える影響として考えられるものはどれか。",
+    "choices": [
+      "輸入品を安く買いやすくなる",
+      "輸入品が必ず買えなくなる",
+      "日本円が国内で使えなくなる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "円高になると、外国の商品を日本円で安く買いやすくなるため、輸入品の価格が下がることがある。一方で輸出企業には不利になることがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2269,
+    "subject": "civics",
+    "number": 269,
+    "category": "経済",
+    "question": "貿易を考えるときに重要な視点として適切なものはどれか。",
+    "choices": [
+      "消費者の利益、国内産業、国際関係のバランスを考える",
+      "輸入は必ずすべて悪いと考える",
+      "輸出だけを増やせば課題はまったくないと考える"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "貿易には、安い商品を得られる利点がある一方、国内産業への影響もある。消費者、企業、国内産業、国際関係のバランスを考えることが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2270,
+    "subject": "civics",
+    "number": 270,
+    "category": "国際",
+    "question": "国際協力が必要な理由として適切なものはどれか。",
+    "choices": [
+      "環境問題や感染症、紛争などは一国だけでは解決しにくいから",
+      "すべての問題は一つの国だけで完全に解決できるから",
+      "外国との関係をなくすことが目的だから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地球温暖化、感染症、難民問題、紛争、貧困などは国境をこえる課題であり、国際機関や各国の協力が必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2271,
+    "subject": "civics",
+    "number": 271,
+    "category": "国際",
+    "question": "SDGsを達成するために個人ができる行動として適切なものはどれか。",
+    "choices": [
+      "食品ロスを減らし、省エネやリサイクルに取り組む",
+      "資源を無駄に使い続ける",
+      "社会問題に関心を持たない"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "SDGsは国や企業だけでなく、個人の行動とも関係する。食品ロスの削減、省エネ、リサイクル、フェアトレード商品の利用などが例である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2272,
+    "subject": "civics",
+    "number": 272,
+    "category": "国際",
+    "question": "多文化共生を進めるために大切な姿勢として適切なものはどれか。",
+    "choices": [
+      "文化や言語の違いを理解し、互いに尊重する",
+      "自分と異なる文化をすべて否定する",
+      "外国人住民を地域社会から排除する"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "多文化共生では、国籍、文化、言語、宗教などの違いを理解し、互いに尊重する姿勢が大切である。地域社会での協力にもつながる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2273,
+    "subject": "civics",
+    "number": 273,
+    "category": "環境",
+    "question": "地球温暖化対策として、国・企業・個人に共通して求められる姿勢はどれか。",
+    "choices": [
+      "二酸化炭素の排出を減らし、持続可能な生活や産業をめざす",
+      "化石燃料の使用を無制限に増やす",
+      "環境への影響を一切考えない"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "地球温暖化対策では、国の政策、企業の技術開発、個人の省エネ行動などが必要である。社会全体で排出削減を進めることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2274,
+    "subject": "civics",
+    "number": 274,
+    "category": "現代社会",
+    "question": "防災を考えるときに重要な組み合わせとして正しいものはどれか。",
+    "choices": [
+      "自助・共助・公助",
+      "需要・供給・価格",
+      "立法・行政・司法"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "防災では、自分で備える自助、地域で助け合う共助、行政が支援する公助の三つを組み合わせることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2275,
+    "subject": "civics",
+    "number": 275,
+    "category": "現代社会",
+    "question": "公民の問題で、資料やグラフを読むときに重要な姿勢として適切なものはどれか。",
+    "choices": [
+      "数値の変化や割合を見て、社会の背景と結びつける",
+      "一番大きい数字だけを見て終わる",
+      "グラフの単位や期間を見ない"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公民の入試では、人口、財政、選挙、環境、貿易などの資料が出やすい。数値の変化、割合、単位、期間を確認し、社会の背景と結びつけて考えることが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2276,
+    "subject": "civics",
+    "number": 276,
+    "category": "現代社会",
+    "question": "資料で高齢者の割合が増えていることが読み取れる場合、社会保障で考えるべき課題はどれか。",
+    "choices": [
+      "医療・介護・年金の負担増加",
+      "選挙制度の完全廃止",
+      "輸出品の種類だけ"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "高齢者の割合が増えると、医療、介護、年金などの社会保障費が増えやすい。資料問題では人口構成と財政・社会保障を結びつけることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2277,
+    "subject": "civics",
+    "number": 277,
+    "category": "現代社会",
+    "question": "人口ピラミッドを読むときに注目すべき点として適切なものはどれか。",
+    "choices": [
+      "年少人口・生産年齢人口・老年人口の割合",
+      "国会議員の名前だけ",
+      "輸出額の順位だけ"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "人口ピラミッドでは、年少人口、生産年齢人口、老年人口の割合や変化を読み取る。少子高齢化や労働力不足の判断に役立つ。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2278,
+    "subject": "civics",
+    "number": 278,
+    "category": "経済",
+    "question": "財政の円グラフで社会保障関係費の割合が大きい場合、背景として最も考えやすいものはどれか。",
+    "choices": [
+      "少子高齢化の進行",
+      "鎖国政策の復活",
+      "参勤交代の負担"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "国の歳出で社会保障関係費が大きい背景には、少子高齢化による年金、医療、介護費用の増加がある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2279,
+    "subject": "civics",
+    "number": 279,
+    "category": "経済",
+    "question": "税と社会保障について正しい考え方はどれか。",
+    "choices": [
+      "負担と給付のバランスを考える必要がある",
+      "税金をなくしても公共サービスは無限に続く",
+      "社会保障は若い世代と無関係である"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "社会保障を充実させるには財源が必要である。税や保険料などの負担と、年金・医療・介護などの給付のバランスを考えることが大切である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2280,
+    "subject": "civics",
+    "number": 280,
+    "category": "地方自治",
+    "question": "地方の人口減少を示す資料から考えられる課題として適切なものはどれか。",
+    "choices": [
+      "公共交通や医療、学校の維持が難しくなること",
+      "国際連合の常任理事国が増えること",
+      "輸入品の価格が必ず下がること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "人口減少が進む地域では、公共交通、医療、学校、商店、地域活動などの維持が課題になる。地方自治や地域づくりと結びつけて考える。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2281,
+    "subject": "civics",
+    "number": 281,
+    "category": "地方自治",
+    "question": "地域課題を解決するために、行政・住民・企業・NPOが協力することを何というか。",
+    "choices": [
+      "協働",
+      "独占",
+      "円高"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "協働とは、行政、住民、企業、NPOなどが役割を分担し、地域課題の解決に協力することである。防災、福祉、環境などで重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2282,
+    "subject": "civics",
+    "number": 282,
+    "category": "政治",
+    "question": "資料で投票率が低いことが示された場合、民主政治上の課題として適切なものはどれか。",
+    "choices": [
+      "政治に反映される意見が一部に偏るおそれがある",
+      "投票率が低いほど必ず全員の意見が反映される",
+      "裁判所が選挙をすべて禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "投票率が低いと、投票した人々の意見が政治に強く反映され、政治参加していない人々の意見が届きにくくなる。民主主義の課題である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2283,
+    "subject": "civics",
+    "number": 283,
+    "category": "政治",
+    "question": "若者の投票率を高めるための取り組みとして適切なものはどれか。",
+    "choices": [
+      "主権者教育や選挙情報の発信を進める",
+      "若者の投票を禁止する",
+      "候補者情報をすべて隠す"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "若者の投票率を高めるには、主権者教育、分かりやすい選挙情報、投票しやすい環境づくりなどが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2284,
+    "subject": "civics",
+    "number": 284,
+    "category": "政治",
+    "question": "一票の格差が問題になる理由として適切なものはどれか。",
+    "choices": [
+      "選挙区によって一票の価値に差が出るから",
+      "投票用紙の色が違うから",
+      "候補者の人数が常に同じだから"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "一票の格差は、選挙区ごとの人口差によって一票の価値に差が生じる問題である。平等選挙の原則と関係が深い。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2285,
+    "subject": "civics",
+    "number": 285,
+    "category": "経済",
+    "question": "需要と供給のグラフを読むとき、価格が上がりやすい状況として適切なものはどれか。",
+    "choices": [
+      "需要が供給を上回るとき",
+      "供給が需要を大きく上回るとき",
+      "需要も供給も存在しないとき"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "需要が供給を上回ると、商品が不足しやすくなり、価格は上がりやすい。需要・供給の関係は資料問題でも重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2286,
+    "subject": "civics",
+    "number": 286,
+    "category": "経済",
+    "question": "円安が進んだ場合に起こりやすい影響として適切なものはどれか。",
+    "choices": [
+      "輸入品の価格が上がりやすい",
+      "輸入品が必ず無料になる",
+      "外国との貿易が完全になくなる"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "円安になると、外国の商品を買うために多くの円が必要になるため、輸入品の価格が上がりやすい。一方で輸出企業には有利になることがある。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2287,
+    "subject": "civics",
+    "number": 287,
+    "category": "経済",
+    "question": "物価上昇が続くインフレーションで生活に起こりうる影響はどれか。",
+    "choices": [
+      "同じ金額で買える商品の量が減ることがある",
+      "お金の価値が必ず上がる",
+      "税金が自動的にすべてなくなる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "インフレーションでは物価が上がるため、同じ金額で買える商品の量が減ることがある。所得の伸びとの関係も重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2288,
+    "subject": "civics",
+    "number": 288,
+    "category": "環境",
+    "question": "環境問題と経済活動の関係について正しい見方はどれか。",
+    "choices": [
+      "経済発展と環境保全の両立を考える必要がある",
+      "環境保全は経済活動と一切関係がない",
+      "経済活動をすれば必ず環境問題はなくなる"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "持続可能な社会をつくるには、経済活動を進めながら環境への負荷を減らす工夫が必要である。環境と経済の両立が重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2289,
+    "subject": "civics",
+    "number": 289,
+    "category": "経済",
+    "question": "企業の社会的責任として適切なものはどれか。",
+    "choices": [
+      "環境保全や人権、法令遵守に配慮する",
+      "利益のためなら法律を無視する",
+      "消費者に必要な情報を一切知らせない"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "企業の社会的責任は、利益だけでなく、環境保全、人権尊重、安全、地域貢献、法令遵守などにも配慮する責任である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2290,
+    "subject": "civics",
+    "number": 290,
+    "category": "経済",
+    "question": "消費者が環境や人権に配慮した商品を選ぶことは、どのような行動といえるか。",
+    "choices": [
+      "社会に影響を与える消費行動",
+      "選挙権の放棄",
+      "司法権の行使"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "消費者の選択は企業活動にも影響を与える。環境や人権に配慮した商品を選ぶことは、持続可能な社会づくりにつながる消費行動である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2291,
+    "subject": "civics",
+    "number": 291,
+    "category": "国際",
+    "question": "国際社会で難民問題を解決するために必要なこととして適切なものはどれか。",
+    "choices": [
+      "紛争解決、人道支援、受け入れ国への協力",
+      "難民をすべて無視すること",
+      "国際機関を廃止すること"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "難民問題には、紛争や迫害の解決、食料や医療などの人道支援、受け入れ国への協力など、国際社会全体の取り組みが必要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2292,
+    "subject": "civics",
+    "number": 292,
+    "category": "国際",
+    "question": "感染症の世界的流行に対して国際協力が必要な理由はどれか。",
+    "choices": [
+      "人の移動により国境をこえて広がることがあるから",
+      "感染症は一つの国の中だけで必ず止まるから",
+      "医療は社会と関係がないから"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "感染症は人の移動によって国境をこえて広がることがある。情報共有、医療支援、ワクチン開発などで国際協力が重要となる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2293,
+    "subject": "civics",
+    "number": 293,
+    "category": "国際",
+    "question": "日本が国際社会で平和に貢献する方法として適切なものはどれか。",
+    "choices": [
+      "人道支援や復興支援、国際機関への協力を行う",
+      "国際協力をすべて拒否する",
+      "紛争地域の対話を妨げる"
+    ],
+    "answer": 0,
+    "difficulty": 2,
+    "difficultyLabel": "★★ 標準",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "日本は、人道支援、災害復興支援、国際機関への協力、ODAなどを通じて平和や安定に貢献することができる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2294,
+    "subject": "civics",
+    "number": 294,
+    "category": "平和主義",
+    "question": "日本国憲法の平和主義を国際社会と結びつけて考えるとき、適切なものはどれか。",
+    "choices": [
+      "戦争を避け、国際協調や平和的解決を重視する",
+      "武力による支配だけを重視する",
+      "国際社会との関係をすべて断つ"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "日本国憲法の平和主義は、戦争放棄だけでなく、国際協調や平和的な問題解決を重視する考え方とも結びつく。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2295,
+    "subject": "civics",
+    "number": 295,
+    "category": "国際",
+    "question": "多文化共生の地域づくりで大切な取り組みはどれか。",
+    "choices": [
+      "外国人住民にも分かりやすい情報提供や交流の場をつくる",
+      "日本語が分からない人に情報を一切出さない",
+      "文化の違いを理由に地域参加を禁止する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 4,
+    "frequencyLabel": "★★★★☆",
+    "explanation": "多文化共生では、やさしい日本語や多言語での情報提供、交流の場づくり、相談体制などが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2296,
+    "subject": "civics",
+    "number": 296,
+    "category": "現代社会",
+    "question": "現代社会の課題を考えるとき、最も適切な判断方法はどれか。",
+    "choices": [
+      "原因・影響・解決策を整理し、複数の立場から考える",
+      "自分に都合のよい情報だけで判断する",
+      "一つの原因だけで全て説明する"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "現代社会の課題は複雑であるため、原因、影響、解決策を整理し、国民、企業、政府、地域、国際社会など複数の立場から考えることが重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2297,
+    "subject": "civics",
+    "number": 297,
+    "category": "現代社会",
+    "question": "公民の記述問題で求められやすい力として適切なものはどれか。",
+    "choices": [
+      "資料を読み取り、理由や影響を説明する力",
+      "用語を一つだけ書けば必ず満点になる力",
+      "選択肢を見ずに暗記だけで答える力"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公民の記述問題では、資料の変化や数値を読み取り、なぜそうなるのか、どのような影響があるのかを説明する力が求められる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2298,
+    "subject": "civics",
+    "number": 298,
+    "category": "政治",
+    "question": "公民で政策のメリット・デメリットを考えるときに重要な姿勢はどれか。",
+    "choices": [
+      "誰にどのような影響があるかを比較する",
+      "メリットだけを見て判断する",
+      "費用や負担をまったく考えない"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "政策には利点だけでなく、費用、負担、影響を受ける人の違いがある。複数の立場からメリット・デメリットを比較する姿勢が重要である。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2299,
+    "subject": "civics",
+    "number": 299,
+    "category": "現代社会",
+    "question": "公民分野を総合的に学ぶうえで重要なことはどれか。",
+    "choices": [
+      "憲法・政治・経済・国際・現代社会を関連づけて理解する",
+      "各単元を完全に切り離して暗記する",
+      "歴史の人物名だけで解く"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公民では、憲法の原理、政治制度、経済活動、国際社会、現代社会の課題がつながっている。関連づけて理解することで応用問題に対応しやすくなる。",
+    "source": "civics_201_300.md"
+  },
+  {
+    "id": 2300,
+    "subject": "civics",
+    "number": 300,
+    "category": "現代社会",
+    "question": "大分県公立高校入試の公民対策として最も重要な学習姿勢はどれか。",
+    "choices": [
+      "用語の意味を理解し、資料・事例と結びつけて考える",
+      "用語を順番だけで丸暗記する",
+      "社会の出来事と公民を切り離して考える"
+    ],
+    "answer": 0,
+    "difficulty": 3,
+    "difficultyLabel": "★★★ 発展",
+    "frequency": 5,
+    "frequencyLabel": "★★★★★",
+    "explanation": "公民では、用語を覚えるだけでなく、資料、グラフ、身近な事例、現代社会の課題と結びつけて考える力が重要である。入試の応用問題にも対応しやすくなる。",
+    "source": "civics_201_300.md"
+  }
+]
